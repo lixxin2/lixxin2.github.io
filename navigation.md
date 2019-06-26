@@ -1,7 +1,5 @@
 # Lietc
  
-[Home](home.md)
-[About](about.md)
 [Research]() 
 [Projects]()
 [Publications]()
@@ -9,3 +7,4 @@
 [CV]()
 [Github](https:/github.com/xxli) 
 [Weibo](https://weibo.com/lixxin2)
+[About](about.md)
