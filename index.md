@@ -1,4 +1,5 @@
-## Xinxin Li
+# Xinxin Li
+
 lecturer, Shandong university of technology, China.
 
 Email: lixinxin [AT] sdut DOT edu DOT cn, lixxin2 [AT] gmail DOT com
@@ -7,15 +8,16 @@ Email: lixinxin [AT] sdut DOT edu DOT cn, lixxin2 [AT] gmail DOT com
 
 Machine Learning, Natural Language Processing, Computer Vision.
 
-Interests: Understanding semantic information in languages and videos.
+Interest: Understanding semantic information in languages and videos.
 
 ### News
 
 
 ### Courses
+
 * [Information Technology Project Management](courses/2019Spring-InformationTechnologyProjectManagement.md). 2019 Spring
 
-[List of all courses](courses/index.md).
+[List of all courses](courses.md).
 
 
 <br>
