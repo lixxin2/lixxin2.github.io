@@ -1,14 +1,3 @@
-[Home](index.)
-
-[Research]() 
-[Publications]()
-[Projects]()
-[Courses](courses.md) 
-[CV]()
-[Github](https:/github.com/xxli) 
-[Weibo](https://weibo.com/lixxin2)
-[gimmick:themechooser](Choose theme)
-
 # Xinxin Li
 
 lecturer, Shandong university of technology, China.
