@@ -1,14 +1,12 @@
 # Xinxin Li
 
-lecturer, Shandong university of technology, China.
-
 Email: lixinxin [AT] sdut DOT edu DOT cn, lixxin2 [AT] gmail DOT com
 
 ### Research Interests
 
 Machine Learning, Natural Language Processing, Computer Vision.
 
-Interest: Understanding semantic information in languages and videos.
+Interest: Understanding semantic information in languages, images and videos.
 
 ### News
 
