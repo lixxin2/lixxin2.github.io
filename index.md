@@ -19,9 +19,8 @@ Interest: Understanding semantic information in languages and videos.
 
 [List of all courses](courses.md).
 
-
 <br>
 
 ---
-Last modified: Apr. 26, 2019
+Last modified: Jul. 20, 2019
 
