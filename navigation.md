@@ -3,12 +3,13 @@
 [Research]() 
 [Publications]()
 [Projects]()
-[Courses](courses.md) 
+[Courses](courses.md)
 
-* [课程](courses-cn.md)
+  * [课程](courses-cn.md)
 
 [CV]()
 [Github](https:/github.com/xxli) 
 [Weibo](https://weibo.com/lixxin2)
+----
 [gimmick:themechooser](Choose theme)
 
