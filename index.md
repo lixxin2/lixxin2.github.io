@@ -2,7 +2,7 @@
 
 Email: lixinxin [AT] sdut DOT edu DOT cn, lixxin2 [AT] gmail DOT com
 
-### Research Interests
+### Research Interest
 
 Machine Learning, Natural Language Processing, Computer Vision.
 
@@ -19,6 +19,8 @@ Interest: Understanding semantic information in languages, images and videos.
 
 <br>
 
+<br>
+
 ---
-Last modified: Jul. 20, 2019
+Last modified: Jul. 21, 2019
 

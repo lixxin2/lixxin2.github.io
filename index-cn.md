@@ -8,14 +8,16 @@
 
 研究兴趣：理解自然语言、图像和视频。
 
-### 新闻
+### 通知
 
 
 ### 课程
 
 * [IT项目管理](courses/2019Spring-InformationTechnologyProjectManagement-cn.md)，2019年春
 
-[其他有课程](courses-cn.md).
+[其他课程](courses-cn.md).
+
+<br>
 
 <br>
 
