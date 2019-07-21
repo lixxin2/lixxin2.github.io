@@ -7,7 +7,6 @@
 [CV]()
 [Github](https:/github.com/xxli) 
 [Weibo](https://weibo.com/lixxin2)
-[comment]:#[gimmick:themechooser](Choose theme)
 [中文]()
 
   * [首页](index-cn.md)
