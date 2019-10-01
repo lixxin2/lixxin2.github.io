@@ -19,6 +19,7 @@
   * [微博](https://weibo.com/lixxin2)
 
 [gimmick:themechooser](Choose theme)
+[gimmick:theme](yeti)
 
 
 
