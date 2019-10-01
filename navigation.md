@@ -18,6 +18,8 @@
   * [Github](https:/github.com/xxli) 
   * [微博](https://weibo.com/lixxin2)
 
+[gimmick:themechooser](Choose theme)
+
 
 
 
