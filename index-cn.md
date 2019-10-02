@@ -58,7 +58,7 @@
 
 &nbsp;&nbsp;   讲师
 
-&nbsp;&nbsp;   Email: lixinxin [AT] sdut DOT edu DOT cn
+&nbsp;&nbsp;   邮箱: lixinxin [AT] sdut DOT edu DOT cn
 
 &nbsp;&nbsp;   [Github](https:/github.com/xxli) , [微博](https://weibo.com/lixxin2)
 
@@ -66,9 +66,9 @@
 
 ### 研究方向
 
-Machine Learning, Natural Language Processing, Computer Vision.
+机器学习，自然语言处理，计算机视觉。
 
-Interest: Understanding semantic information in languages, images and videos.
+理解语言、文本、图像和视频中的语义信息。
 
 ### 最新
 
@@ -78,7 +78,7 @@ Interest: Understanding semantic information in languages, images and videos.
 
 ### 课程
 
-* [IT项目管理](courses/2019Spring-InformationTechnologyProjectManagement-cn.html). 2019 Spring
+* [IT项目管理](courses/2019Spring-InformationTechnologyProjectManagement-cn.html). 2019年春
 
 [所有课程](courses-cn.html).
 
@@ -87,7 +87,7 @@ Interest: Understanding semantic information in languages, images and videos.
 <br>
 
 ---
-更新时间: Oct. 2, 2019
+更新时间: 2019.10.2
 
   
 
