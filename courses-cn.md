@@ -8,7 +8,7 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" class="active" href="#">首页</a></li>
+  text-decoration: none;" href="index-cn.html">首页</a></li>
   <li style="float: left;"><a style="display: block;
   color: #666;
   text-align: center;
@@ -48,7 +48,7 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" href="index.html">English</a></li>
+  text-decoration: none;" href="./">English</a></li>
 </ul>
 
 ### 课程

@@ -8,7 +8,7 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" class="active" href="#">Home</a></li>
+  text-decoration: none;" href="./">Home</a></li>
   <li style="float: left;"><a style="display: block;
   color: #666;
   text-align: center;
