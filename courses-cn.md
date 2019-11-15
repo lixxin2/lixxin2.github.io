@@ -1,59 +1,7 @@
-<ul style="list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 0px solid #e7e7e7;
-  background-color: #f3f3f3;">
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="index-cn.html">首页</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="publications-cn.html">论文</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="codes-cn.html">代码</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="datasets-cn.html">数据集</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="projects-cn.html">项目</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="courses-cn.html">课程</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="news-cn.html">新闻</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="cv-cn.html">简历</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="./">English</a></li>
-</ul>
-
 ### 课程
 
 #### 2019年秋
+
 * [Java语言程序设计(A)](courses/2019Fall-JavaProgramming-cn.html). 
 * [移动软件高级开发](courses/2019Fall-MobileSoftwareAdvancedDevelopment-cn.html). 
 

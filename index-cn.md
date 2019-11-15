@@ -50,8 +50,7 @@
   padding: 14px 16px;
   text-decoration: none;" href="./">English</a></li>
 </ul>
-
-<a href="1.jpg"><img src="1.jpg" style="margin-top:0px" align="left"
+<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="left"
  width="150" height="150" alt="" border="0"></a>
 
 ### &nbsp;  李鑫鑫
@@ -60,23 +59,22 @@
 
 &nbsp;&nbsp;   邮箱: lixinxin [AT] sdut DOT edu DOT cn
 
-&nbsp;&nbsp;   [Github](https:/github.com/xxli) , [微博](https://weibo.com/lixxin2)
+&nbsp;&nbsp;   [Github](https:/github.com/xxli)   [微博](https://weibo.com/lixxin2)
 
 
-
-### 研究方向
+#### 研究方向
 
 机器学习，自然语言处理，计算机视觉。
 
 理解语言、文本、图像和视频中的语义信息。
 
-### 最新
+#### 最新
 
-### 学术活动
+#### 学术活动
 
 
 
-### 课程
+#### 课程
 
 * [IT项目管理](courses/2019Spring-InformationTechnologyProjectManagement-cn.html). 2019年春
 
@@ -87,7 +85,7 @@
 <br>
 
 ---
-更新时间: 2019.10.2
+更新时间: 2019.11.15
 
   
 
