@@ -51,16 +51,18 @@
   text-decoration: none;" href="index-cn.html">中文</a></li>
 </ul>
 
-<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="left"
+<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="right"
  width="150" height="150" alt="" border="0"></a>
 
-### &nbsp;  Xinxin Li
+### Xinxin Li
 
-&nbsp;&nbsp;   A Lecturer in SDUT.
+A Lecturer in SDUT.
 
-&nbsp;&nbsp;   Email: lixinxin [AT] sdut DOT edu DOT cn
+Email: lixinxin [AT] sdut DOT edu DOT cn
 
-&nbsp;&nbsp;   [Github](https:/github.com/xxli)  [Weibo](https://weibo.com/lixxin2)
+[Github](https:/github.com/xxli)  [Weibo](https://weibo.com/lixxin2)
+
+
 
 #### Research
 
@@ -76,7 +78,8 @@ Interest: Understanding semantic information in languages, images and videos.
 
 #### Teaching
 
-* [Information Technology Project Management](courses/2019Spring-InformationTechnologyProjectManagement.md). 2019 Spring
+* [Information Technology Project Management](courses/2020Spring-InformationTechnologyProjectManagement.html). 2020 Spring
+* [Web Development](courses/2020Spring-WebDevelopment.html). 2020 Spring
 
 [List of all courses](courses.md).
 
@@ -84,8 +87,7 @@ Interest: Understanding semantic information in languages, images and videos.
 
 <br>
 
----
-Last modified: Nov. 15, 2019
+Last modified: Jan. 13, 2020
 
   
 

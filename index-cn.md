@@ -50,16 +50,16 @@
   padding: 14px 16px;
   text-decoration: none;" href="./">English</a></li>
 </ul>
-<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="left"
+<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="right"
  width="150" height="150" alt="" border="0"></a>
 
-### &nbsp;  李鑫鑫
+### 李鑫鑫
 
-&nbsp;&nbsp;   讲师
+讲师
 
-&nbsp;&nbsp;   邮箱: lixinxin [AT] sdut DOT edu DOT cn
+邮箱: lixinxin [AT] sdut DOT edu DOT cn
 
-&nbsp;&nbsp;   [Github](https:/github.com/xxli)   [微博](https://weibo.com/lixxin2)
+[Github](https:/github.com/xxli)   [微博](https://weibo.com/lixxin2)
 
 
 #### 研究方向
@@ -76,7 +76,7 @@
 
 #### 课程
 
-* [IT项目管理](courses/2019Spring-InformationTechnologyProjectManagement-cn.html). 2019年春
+* [IT项目管理](courses/2020Spring-InformationTechnologyProjectManagement-cn.html). 2020年春
 
 [所有课程](courses-cn.html).
 
@@ -84,8 +84,8 @@
 
 <br>
 
----
-更新时间: 2019.11.15
+
+更新时间: 2020.1.13
 
   
 
