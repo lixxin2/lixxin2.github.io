@@ -1,3 +1,4 @@
+<script> document.title = '李鑫鑫'; </script>
 <ul style="list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,7 +49,7 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" href="./">English</a></li>
+  text-decoration: none;" href="./index.html">English</a></li>
 </ul>
 <a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="right"
  width="150" height="150" alt="" border="0"></a>
@@ -57,7 +58,7 @@
 
 讲师
 
-邮箱: lixinxin [AT] sdut DOT edu DOT cn
+邮箱: 姓名的拼音 [AT] sdut DOT edu DOT cn
 
 [Github](https:/github.com/xxli)   [微博](https://weibo.com/lixxin2)
 
@@ -77,6 +78,7 @@
 #### 课程
 
 * [IT项目管理](courses/2020Spring-InformationTechnologyProjectManagement-cn.html). 2020年春
+* [网页开发（英语）](courses/2020Spring-WebDevelopment.html). 2020年春
 
 [所有课程](courses-cn.html).
 
@@ -85,7 +87,7 @@
 <br>
 
 
-更新时间: 2020.1.13
+更新时间: 2020.2.2
 
   
 

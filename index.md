@@ -1,3 +1,4 @@
+<script> document.title='Xinxin Li'; </script>
 <ul style="list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,7 +59,7 @@
 
 A Lecturer in SDUT.
 
-Email: lixinxin [AT] sdut DOT edu DOT cn
+Email: FamilynameGivenname [AT] sdut DOT edu DOT cn
 
 [Github](https:/github.com/xxli)  [Weibo](https://weibo.com/lixxin2)
 
@@ -87,7 +88,7 @@ Interest: Understanding semantic information in languages, images and videos.
 
 <br>
 
-Last modified: Jan. 13, 2020
+Last modified: Feb. 2, 2020
 
   
 
