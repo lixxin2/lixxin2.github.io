@@ -19,16 +19,6 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" href="codes-cn.html">代码</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="datasets-cn.html">数据集</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;" href="projects-cn.html">项目</a></li>
   <li style="float: left;"><a style="display: block;
   color: #666;

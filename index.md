@@ -19,16 +19,6 @@
   color: #666;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;" href="codes.html">Codes</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="datasets.html">Datasets</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;" href="projects.html">Projects</a></li>
   <li style="float: left;"><a style="display: block;
   color: #666;
