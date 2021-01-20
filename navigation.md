@@ -6,4 +6,3 @@
 [Teaching](courses.md)
 [CV](cv.md)
 [中文](index-cn.md)
-[gimmick:themechooser](Choose theme)
