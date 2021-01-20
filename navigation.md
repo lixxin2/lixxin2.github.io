@@ -1,6 +1,6 @@
 # Home
 
-[gimmick:Theme](readable)
+[gimmick:Theme](spacetab)
 [Publications](publications.md)
 [Projects](projects.md)
 [Teaching](courses.md)
