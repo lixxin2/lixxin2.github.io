@@ -3,5 +3,5 @@
 [Publications](publications.md)
 [Projects](projects.md)
 [Teaching](courses.md)
-[CV](cv.md)
-[中文](index-cn.md)
+[CV](DV.md)
+[中文](../cn/index.html)
