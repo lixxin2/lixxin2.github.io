@@ -18,17 +18,11 @@ Interest: Understanding semantic information in languages, images and videos.
 
 ### Teaching
 
-- [Information Technology Project Management](courses/2020Spring-InformationTechnologyProjectManagement.html). 2020 Spring
-- [Web Development](courses/2020Spring-WebDevelopment.html). 2020 Spring
+- [Information Technology Project Management](../courses/2020Spring-InformationTechnologyProjectManagement.md). 2020 Spring
+- [Web Development](../courses/2020Spring-WebDevelopment.md). 2020 Spring
 
 [List of all courses](courses.md).
 
-
-
 <br>
 
-Last modified: Jan. 28, 2021
-
-  
-
-
+Last modified: Jan. 29, 2021
