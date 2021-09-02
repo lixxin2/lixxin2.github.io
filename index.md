@@ -1,94 +1,27 @@
-<ul style="list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 0px solid #e7e7e7;
-  background-color: #f3f3f3;">
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="./">Home</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="publications.html">Publications</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="codes.html">Codes</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="datasets.html">Datasets</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="projects.html">Projects</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="courses.html">Teaching</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="cv.html">CV</a></li> 
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="news.html">News</a></li>
-  <li style="float: left;"><a style="display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;" href="index-cn.html">中文</a></li>
-</ul>
+[__Home__](index.html) &nbsp;&nbsp;&nbsp;&nbsp; [News](news.html) &nbsp;&nbsp;&nbsp;&nbsp; [Publications](publications.html) &nbsp;&nbsp;&nbsp;&nbsp; [Projects](projects.html) &nbsp;&nbsp;&nbsp;&nbsp; [Courses](courses.html) &nbsp;&nbsp;&nbsp;&nbsp; [Codes&Data](codevsdata.html)  &nbsp;&nbsp;&nbsp;&nbsp;  [中文](index-cn.html)
 
-<a href="1.jpg"><img src="images/1.jpg" style="margin-top:0px" align="right"
- width="150" height="150" alt="" border="0"></a>
+---
 
-### Xinxin Li
+<div><img src="images/1.jpg" style="margin-top:25px;margin-bottom:10px;margin-right:20px;width:120px;height:120px;" align="left" alt=""></div>
 
+####
+
+Xinxin Li
 A Lecturer in SDUT.
-
 Email: lixinxin [AT] sdut DOT edu DOT cn
-
-[Github](https:/github.com/xxli)  [Weibo](https://weibo.com/lixxin2)
-
-
+[Github](https:/github.com/xxli)
 
 #### Research
 
 Machine Learning, Natural Language Processing, Computer Vision.
-
 Interest: Understanding semantic information in languages, images and videos.
-
-#### News
 
 #### Professional Activities
 
-
-
 #### Teaching
 
-* [Information Technology Project Management](courses/2020Spring-InformationTechnologyProjectManagement.html). 2020 Spring
-* [Web Development](courses/2020Spring-WebDevelopment.html). 2020 Spring
-
-[List of all courses](courses.md).
+- [Big Data Processing Technology](courses/2021Autumn-BigDataProcessingTechnology.html). 2021 Autumn
+- [Data Storage Technology](courses/2021Autumn-DataStorageTechnology.html). 2021 Autumn
 
 
-
-<br>
-
-Last modified: Jan. 13, 2020
-
-  
-
-
+Last modified: Sep. 2, 2021

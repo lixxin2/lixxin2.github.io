@@ -1,33 +1,48 @@
 ### Courses
 
+#### 2021 Autumn
+
+- [Big Data Processing Technology](courses/2021Autumn-BigDataProcessingTechnology.html)
+- [Data Storage Technology](courses/2021Autumn-DataStorageTechnology.html)
+
+#### 2021 Spring
+
+- [Parallel Programming]
+- [Linux and Shell Programming]
+- [Web Development]
+
+#### 2020 Autumn
+
+- [Data Storage Technology]
+
 #### 2020 Spring
 
-- [IT Project Management (in Chinese)](courses/2020Spring-InformationTechnologyProjectManagement-cn.html). 
+- [IT Project Management (in Chinese)](courses/2020Spring-InformationTechnologyProjectManagement-cn.html).
 - [Web Development](courses/2020Spring-WebDevelopment.html)
 
 #### 2019 Autumn
 
-- [Java Programming (in Chinese)](courses/2019Fall-JavaProgramming-cn.html). 
+- [Java Programming (in Chinese)](courses/2019Fall-JavaProgramming-cn.html).
 - [Mobile Software Advanced Development (in Chinese)](courses/2019Fall-MobileSoftwareAdvancedDevelopment-cn.html).  Weixin miniprogram.
 
 #### 2019 Spring
 
-- [IT Project Management (in Chinese)](courses/2019Spring-InformationTechnologyProjectManagement-cn.html). 
+- [IT Project Management (in Chinese)](courses/2019Spring-InformationTechnologyProjectManagement-cn.html).
 
 #### 2018 Autumn
 
-- [Information Modeling and Specification (in Chinese)](courses/2018Fall-InformationModellingAndSpecification-cn.html). 
+- [Information Modeling and Specification (in Chinese)](courses/2018Fall-InformationModellingAndSpecification-cn.html).
 
 #### 2018 Spring
 
-- [Android Development (in Chinese)](courses/2018Spring-AndroidProgramming-cn.html). 
+- [Android Development (in Chinese)](courses/2018Spring-AndroidProgramming-cn.html).
 - [Machine Learning: Foundation and Practice (in Chinese)](courses/2018Spring-MachineLearning-cn.html). Graduate course.
 
 #### 2017 Autumn
 
 - [Data Warehousing and Data Mining (in Chinese)](courses/2017Fall-DataMining-cn.html). Graduate course.
-- [Freshman Seminar (in Chinese)](courses/2017Fall-FreshmanSeminar-cn.html). 
-- [Information Modeling and Specification (in Chinese)](courses/2017Fall-InformationModellingAndSpecification-cn.html). 
+- [Freshman Seminar (in Chinese)](courses/2017Fall-FreshmanSeminar-cn.html).
+- [Information Modeling and Specification (in Chinese)](courses/2017Fall-InformationModellingAndSpecification-cn.html).
 
 #### 2017 Spring
 
@@ -36,15 +51,14 @@
 #### 2016 Autumn
 
 - [Data Warehousing and Data Mining (in Chinese) (in Chinese)](courses/2016Fall-DataMining-cn.html). Graduate course.
-- [Information Modeling and Specification (in Chinese)](courses/2016Fall-InformationModellingAndSpecification-cn.html). 
-- [Introduction to Computer Science/Software Engineering (in Chinese)](courses/2016Fall-IntroductionToSoftwareEngineering-cn.html). 
+- [Information Modeling and Specification (in Chinese)](courses/2016Fall-InformationModellingAndSpecification-cn.html).
+- [Introduction to Computer Science/Software Engineering (in Chinese)](courses/2016Fall-IntroductionToSoftwareEngineering-cn.html).
 
 #### 2016 Spring
 
 - [Script Programming (in Chinese)](courses/2016Spring-ScriptProgramming-cn.html). Linux & Shell Programming.
-- [Java Programming (in Chinese)](courses/2016Spring-JavaProgramming-cn.html). 
+- [Java Programming (in Chinese)](courses/2016Spring-JavaProgramming-cn.html).
 
 #### 2015 Autumn
 
-- [Introduction to Computer (in Chinese)](courses/2015Fall-IntroductionToComputer-cn.html). 
-
+- [Introduction to Computer (in Chinese)](courses/2015Fall-IntroductionToComputer-cn.html).
