@@ -1,3 +1,5 @@
+@import "header-cn.md"
+
 ### 课程
 
 #### 2021年秋

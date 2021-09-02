@@ -1,39 +1,251 @@
-<!doctype html>
-<html>
-<head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>2016Spring-ScriptProgramming-cn</title></head>
-<body><h2>脚本编程技术</h2>
-<h3>时间地点</h3>
-<ul>
-<li>班级：计科1403，计科1404</li>
-<li>时间：2016年春季学期，第10-17周，周一和周三的第5-6节，周五第1-2节</li>
-<li>地点：周一（信息中心[编号N64]）、周三5108，周五5204房间</li>
+<!DOCTYPE html><html><head>
+      <title>2016Spring-ScriptProgramming-cn</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\tm\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.6.0\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      pre{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;padding:1em;margin:.5em 0;overflow:auto;line-height:1.5;tab-size:4;hyphens:none;color:#2b3f6a;background-color:#eee9dd !important;border:#ddd3bb;border-radius:3px}pre[class*="language-"]{padding:1em}code[class*="language-"] .token.comment,pre[class*="language-"] .token.comment,code[class*="language-"] .token.prolog,pre[class*="language-"] .token.prolog,code[class*="language-"] .token.doctype,pre[class*="language-"] .token.doctype,code[class*="language-"] .token.cdata,pre[class*="language-"] .token.cdata{color:#9ca3b0;font-style:italic}code[class*="language-"] .token.punctuation,pre[class*="language-"] .token.punctuation{color:#9ca3b0}code[class*="language-"] .namespace,pre[class*="language-"] .namespace{opacity:.7}code[class*="language-"] .token.constant,pre[class*="language-"] .token.constant{color:#c16161}code[class*="language-"] .token.boolean,pre[class*="language-"] .token.boolean,code[class*="language-"] .token.number,pre[class*="language-"] .token.number,code[class*="language-"] .token.function-name,pre[class*="language-"] .token.function-name{color:#c16161}code[class*="language-"] .token.tag,pre[class*="language-"] .token.tag{color:#ac4343}code[class*="language-"] .token.symbol,pre[class*="language-"] .token.symbol{color:#8f932b}code[class*="language-"] .token.selector,pre[class*="language-"] .token.selector{color:#d08e25}code[class*="language-"] .token.attr-name,pre[class*="language-"] .token.attr-name{color:#d08e25}code[class*="language-"] .token.string,pre[class*="language-"] .token.string{background-color:rgba(255,204,0,0.03);color:rgba(106,68,28,0.77)}code[class*="language-"] .token.char,pre[class*="language-"] .token.char{color:#8f932b}code[class*="language-"] .token.url,pre[class*="language-"] .token.url{color:#d08e25}code[class*="language-"] .token.atrule,pre[class*="language-"] .token.atrule,code[class*="language-"] .token.attr-value,pre[class*="language-"] .token.attr-value,code[class*="language-"] .token.keyword,pre[class*="language-"] .token.keyword{color:#8f932b}code[class*="language-"] .token.function,pre[class*="language-"] .token.function{color:#d08e25}code[class*="language-"] .token.class-name,pre[class*="language-"] .token.class-name{color:#2b3f6a}code[class*="language-"] .token.variable,pre[class*="language-"] .token.variable{color:#5e78e1}code[class*="language-"] .token.regex,pre[class*="language-"] .token.regex,code[class*="language-"] .token.important,pre[class*="language-"] .token.important{color:#379566}code[class*="language-"] .token.important,pre[class*="language-"] .token.important,code[class*="language-"] .token.bold,pre[class*="language-"] .token.bold{font-weight:bold}code[class*="language-"] .token.italic,pre[class*="language-"] .token.italic{font-style:italic}code[class*="language-"] .token.entity,pre[class*="language-"] .token.entity{cursor:help}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:rgba(153,122,102,0.08);background:linear-gradient(to right, rgba(153,122,102,0.1) 70%, rgba(153,122,102,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:rgba(153,122,102,0.4);color:#f5f2f0;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px white}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}body{font-size:16px;background-color:#f3f2ee;font-family:"PT Serif",'Times New Roman',Times;color:#1f0909;line-height:1.5em}body ol,body ul{list-style:none}body blockquote,body q{quotes:none}body blockquote:before,body blockquote:after,body q:before,body q:after{content:'';content:none}body table{border-collapse:collapse;border-spacing:0}body h1,body h2,body h3,body h4,body h5,body h6{font-weight:bold}body h1{font-size:1.875em;line-height:1.6em;margin-top:2em}body h2,body h3{font-size:1.3125em;line-height:1.15;margin-top:2.285714em;margin-bottom:1.15em}body h3{font-weight:normal}body h4{font-size:1.125em;margin-top:2.67em}body h5,body h6{font-size:1em}body h1{border-bottom:1px solid;margin-bottom:1.875em;padding-bottom:.8125em}body a{text-decoration:none;color:#065588}body a:hover,body a:active{text-decoration:underline}body p,body blockquote,body .md-fences{margin-bottom:1.5em}body h1,body h2,body h3,body h4,body h5,body h6{margin-bottom:1.5em}body blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}body ul,body ol{margin:0 0 1.5em 1.5em}body ol li{list-style-type:decimal;list-style-position:outside}body ul li{list-style-type:disc;list-style-position:outside}body li>p{margin-top:0;margin-bottom:0}body .md-meta,body .md-before,body .md-after{color:#999}body table{margin-bottom:1.5em;font-size:1em}body thead th,body tfoot th{padding:.25em .25em .25em .4em;text-transform:uppercase}body th{text-align:left}body td{vertical-align:top;padding:.25em .25em .25em .4em}body code,body .md-fences{color:inherit;background-color:#dadada;padding-left:1ch;padding-right:1ch}body pre code{background-color:inherit}body .md-fences{margin-left:2em;margin-bottom:3em}body .md-fences .CodeMirror.CodeMirror-wrap{top:-0.8em}body pre,body code,body tt{font-size:.875em;line-height:1.714285em}body h1{line-height:1.3em;font-weight:normal;margin-bottom:.5em}body p+ul,body p+ol{margin-top:-1em}body h3+ul,body h4+ul,body h5+ul,body h6+ul,body h3+ol,body h4+ol,body h5+ol,body h6+ol{margin-top:.5em}body li>ul,body li>ol{margin-top:inherit}body h2,body h3{margin-bottom:.75em}body hr{border-top:none;border-right:none;border-bottom:1px solid;border-left:none}body h1{border-color:#c5c5c5}body blockquote{border-color:#bababa;color:#656565;background-color:#e6e4dc}body thead.md-table-edit{background-color:transparent}body thead{background-color:#dadada}body tr:nth-child(even){background:#e8e7e7}body hr{border-color:#c5c5c5}body .task-list{padding-left:1rem}body .task-list-item{list-style-type:none;margin-left:-1.8em}body .task-list-item .task-list-item-checkbox{margin-right:.8em}body .task-list-item input:before{content:'\221A';display:inline-block;width:1.25rem;height:1.5rem;vertical-align:middle;text-align:center;color:#ddd;background-color:#F3F2EE}body .task-list-item input:checked:before,body .task-list-item input[checked]:before{color:inherit}body img{max-width:100%}body kbd{color:#1f0909}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
 
-</ul>
-<h3>授课人</h3>
-<ul>
-<li>李鑫鑫</li>
-<li>办公室：9#304</li>
-<li>Email：365382513 AT qq DOT com</li>
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h2 class="mume-header" id="%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF">&#x811A;&#x672C;&#x7F16;&#x7A0B;&#x6280;&#x672F;</h2>
 
-</ul>
-<h3>通知</h3>
-<ul>
-<li>2016.6.12 实验六已发布，注意提交时间：第十七周周一，2016.6.20</li>
-<li>2016.6.6 实验五已发布，注意提交时间：第十六周周一，2016.6.13</li>
-<li>2016.5.27 实验四已发布，注意提交时间：第十五周周一，2016.6.6</li>
-<li>2016.5.23 实验三已发布，注意提交时间：第十四周周一，2016.5.30</li>
-<li>2016.5.16 实验二已发布，注意提交时间</li>
-<li>2016.5.9 实验一已发布，注意提交时间</li>
+<h3 class="mume-header" id="%E6%97%B6%E9%97%B4%E5%9C%B0%E7%82%B9">&#x65F6;&#x95F4;&#x5730;&#x70B9;</h3>
 
+<ul>
+<li>
+<pre class="language-text">&#x73ED;&#x7EA7;&#xFF1A;&#x8BA1;&#x79D1;1403&#xFF0C;&#x8BA1;&#x79D1;1404
+</pre>
+</li>
+<li>
+<pre class="language-text">&#x65F6;&#x95F4;&#xFF1A;2016&#x5E74;&#x6625;&#x5B63;&#x5B66;&#x671F;&#xFF0C;&#x7B2C;10-17&#x5468;&#xFF0C;&#x5468;&#x4E00;&#x548C;&#x5468;&#x4E09;&#x7684;&#x7B2C;5-6&#x8282;&#xFF0C;&#x5468;&#x4E94;&#x7B2C;1-2&#x8282;
+</pre>
+</li>
+<li>
+<pre class="language-text">&#x5730;&#x70B9;&#xFF1A;&#x5468;&#x4E00;&#xFF08;&#x4FE1;&#x606F;&#x4E2D;&#x5FC3;[&#x7F16;&#x53F7;N64]&#xFF09;&#x3001;&#x5468;&#x4E09;5108&#xFF0C;&#x5468;&#x4E94;5204&#x623F;&#x95F4;
+</pre>
+</li>
 </ul>
-<h3>课程内容</h3>
-<figure><table>
+<h3 class="mume-header" id="%E6%8E%88%E8%AF%BE%E4%BA%BA">&#x6388;&#x8BFE;&#x4EBA;</h3>
+
+<ul>
+<li>
+<pre class="language-text">&#x674E;&#x946B;&#x946B;
+</pre>
+</li>
+<li>
+<pre class="language-text">&#x529E;&#x516C;&#x5BA4;&#xFF1A;9#304
+</pre>
+</li>
+<li>
+<pre class="language-text">Email&#xFF1A;365382513 AT qq DOT com
+</pre>
+</li>
+</ul>
+<h3 class="mume-header" id="%E9%80%9A%E7%9F%A5">&#x901A;&#x77E5;</h3>
+
+<ul>
+<li>2016.6.12 &#x5B9E;&#x9A8C;&#x516D;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.20</li>
+<li>2016.6.6 &#x5B9E;&#x9A8C;&#x4E94;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x516D;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.13</li>
+<li>2016.5.27 &#x5B9E;&#x9A8C;&#x56DB;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E94;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.6</li>
+<li>2016.5.23 &#x5B9E;&#x9A8C;&#x4E09;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x56DB;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.5.30</li>
+<li>2016.5.16 &#x5B9E;&#x9A8C;&#x4E8C;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;</li>
+<li>2016.5.9 &#x5B9E;&#x9A8C;&#x4E00;&#x5DF2;&#x53D1;&#x5E03;&#xFF0C;&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x65F6;&#x95F4;</li>
+</ul>
+<h3 class="mume-header" id="%E8%AF%BE%E7%A8%8B%E5%86%85%E5%AE%B9">&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;</h3>
+
+<table>
 <thead>
-<tr><th style='text-align:left;' >课次</th><th style='text-align:left;' >时间</th><th style='text-align:left;' >授课内容</th><th style='text-align:left;' >课件</th><th style='text-align:left;' >其他</th></tr></thead>
-<tbody><tr><td style='text-align:left;' >1</td><td style='text-align:left;' >2016.5.4 <br> 第十周周三</td><td style='text-align:left;' >1. Linux概述 <br> * 1.1 初始Linux  <br> * 1.2 Linux概览  <br> * 1.3 Linux的安装  <br> * 1.4 启动与关闭</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>0 课程简介 <br> 1 Linux概述</a></td><td style='text-align:left;' >1. <a href='http://jingyan.baidu.com/article/14bd256e266714bb6d2612da.html'>虚拟机怎么安装安装Linux (Fedora)</a> , <br> 2. <a href='http://wenku.baidu.com/link?url=efSgFWTJH20LKzOoY3IAbvrLUbZlT56eqmrqjh8M66vwPP6NElneaqJP1ETRxxRsxjoE2JPspBLNJeBB8hBZuQLrZbsmw0cvLBpgb0rjidi'>VMware10下安装Fedora21(图文详解)</a></td></tr><tr><td style='text-align:left;' >2</td><td style='text-align:left;' >2016.5.6 <br> 第十周周五</td><td style='text-align:left;' >2. shell及常用命令 <br> * 2.1 Linux终端使用基础  <br> * 2.2 文件与目录的基本概念  <br> * 2.3 目录和文件的基本操作</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>2 shell及常用命令 </a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >3</td><td style='text-align:left;' >2016.5.9 <br> 第十一周周一</td><td style='text-align:left;' >* 2.1 Linux终端使用基础  <br> * 2.2 文件与目录的基本概念  <br> * 2.3 目录和文件的基本操作</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验一.doc </a></td><td style='text-align:left;' >提交时间：第十二周周五，2016.5.20</td></tr><tr><td style='text-align:left;' >4</td><td style='text-align:left;' >2016.5.11 <br> 第十一周周三</td><td style='text-align:left;' >* 2.4 备份与压缩命令 <br> * 2.5 其他常用命令 <br> * 2.6 联机帮助命令</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>2 shell及常用命令</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >5</td><td style='text-align:left;' >2016.5.13 <br> 第十一周周五</td><td style='text-align:left;' >3. X Window系统的使用 <br> 4_Linux上的应用软件</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>3_X Window系统的使用.pptx <br>4_Linux上的应用软件.pptx </a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >6</td><td style='text-align:left;' >2016.5.16 <br> 第十二周周一</td><td style='text-align:left;' >实验二： Linux系统的基本操作</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验二.doc </a></td><td style='text-align:left;' >提交时间：第十三周周一，2016.5.23</td></tr><tr><td style='text-align:left;' >7</td><td style='text-align:left;' >2016.5.18 <br> 第十二周周三</td><td style='text-align:left;' >5. 硬件与软件的安装</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>5_硬件与软件的安装.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >8</td><td style='text-align:left;' >2016.5.20 <br> 第十二周周五</td><td style='text-align:left;' >6. 网络基本配置</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>6_网络基本配置.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >9</td><td style='text-align:left;' >2016.5.23 <br> 第十三周周一</td><td style='text-align:left;' >实验三： Linux系统的网络基本配置</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验三.doc </a></td><td style='text-align:left;' >提交时间：第十四周周一，2016.5.30</td></tr><tr><td style='text-align:left;' >10</td><td style='text-align:left;' >2016.5.25 <br> 第十三周周三</td><td style='text-align:left;' >7. 常用网络服务的使用与配置</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>7_常用网络服务的使用与配置.pptx</a></td><td style='text-align:left;' >Samba<br> <a href='http://blog.sina.com.cn/s/blog_ae9507be01017tyz.html'>1. win7 与虚拟机 fedora14 使用 samba 文件共享</a> <br> <a href='http://www.linuxidc.com/Linux/2013-01/78234.htm'>2. Win7 + VMware + Fedora18 Samba 服务器的搭建图解</a></td></tr><tr><td style='text-align:left;' >11</td><td style='text-align:left;' >2016.5.27 <br> 第十三周周五</td><td style='text-align:left;' >8. 系统管理与监视</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>8_系统管理与监视.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >12</td><td style='text-align:left;' >2016.5.30 <br> 第十四周周一</td><td style='text-align:left;' >实验四：Linux系统常用网络服务的配置</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验四.doc </a></td><td style='text-align:left;' >提交时间：第十五周周一，2016.6.6</td></tr><tr><td style='text-align:left;' >13</td><td style='text-align:left;' >2016.6.1 <br> 第十四周周三</td><td style='text-align:left;' >9. Linux系统的安全管理</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>9_Linux系统的安全管理.pptx.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >14</td><td style='text-align:left;' >2016.6.3 <br> 第十四周周五</td><td style='text-align:left;' >11. shell程序设计 <br> * 11.1 使用Shell <br> * 11.2 bash程序设计 <br> ** 11.2.1 bash程序的一般格式 <br> ** 11.2.2 变量的声明和使用 <br> ** 11.2.3 条件判断</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>11_shell程序设计.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >15</td><td style='text-align:left;' >2016.6.6 <br> 第十五周周一</td><td style='text-align:left;' >实验五：Linux系统的管理与监视</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验五.doc </a></td><td style='text-align:left;' >提交时间：第十六周周一，2016.6.13</td></tr><tr><td style='text-align:left;' >16</td><td style='text-align:left;' >2016.6.8 <br> 第十五周周三</td><td style='text-align:left;' >** 11.2.4 控制结构 <br> ** 11.2.5 函数 <br> * 11.3 程序实例 <br> ** 11.3.1 Linux程序实例</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>11_shell程序设计.pptx</a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >17</td><td style='text-align:left;' >2016.6.13 <br> 第十六周周一</td><td style='text-align:left;' >实验六：Linux系统shell编程</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验六.doc </a></td><td style='text-align:left;' >提交时间：第十七周周一，2016.6.20</td></tr><tr><td style='text-align:left;' >18</td><td style='text-align:left;' >2016.6.15 <br> 第十六周周三</td><td style='text-align:left;' >12 gcc的使用与开发</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>12_gcc的使用与开发.ppt </a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >19</td><td style='text-align:left;' >2016.6.17 <br> 第十六周周五</td><td style='text-align:left;' >13 Gtk+图形界面程序设计 <br> 14 Qt图形界面程序设计</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>13_Gtk+图形界面程序设计 .ppt <br>14_Qt图形界面程序设计.ppt </a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >20</td><td style='text-align:left;' >2016.6.20 <br> 第十七周周一</td><td style='text-align:left;' >实验七：Linux系统shell编程</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验七.doc </a></td><td style='text-align:left;' >&nbsp;</td></tr><tr><td style='text-align:left;' >21</td><td style='text-align:left;' >2016.6.22 <br> 第十七周周三</td><td style='text-align:left;' >实验七：Linux系统shell编程</td><td style='text-align:left;' ><a href='http://pan.baidu.com/s/1jHT70R8'>实验/实验七.doc </a></td><td style='text-align:left;' >提交时间：第十七周周三，2016.6.22</td></tr><tr><td style='text-align:left;' >22</td><td style='text-align:left;' >2016.6.24 <br> 第十七周周五</td><td style='text-align:left;' >复习</td><td style='text-align:left;' >&nbsp;</td><td style='text-align:left;' >&nbsp;</td></tr></tbody>
-</table></figure>
-<p>&nbsp;</p>
-</body>
-</html>
+<tr>
+<th style="text-align:left">&#x8BFE;&#x6B21;</th>
+<th style="text-align:left">&#x65F6;&#x95F4;</th>
+<th style="text-align:left">&#x6388;&#x8BFE;&#x5185;&#x5BB9;</th>
+<th style="text-align:left">&#x8BFE;&#x4EF6;</th>
+<th style="text-align:left">&#x5176;&#x4ED6;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">2016.5.4 <br> &#x7B2C;&#x5341;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">1. Linux&#x6982;&#x8FF0; <br> * 1.1 &#x521D;&#x59CB;Linux  <br> * 1.2 Linux&#x6982;&#x89C8;  <br> * 1.3 Linux&#x7684;&#x5B89;&#x88C5;  <br> * 1.4 &#x542F;&#x52A8;&#x4E0E;&#x5173;&#x95ED;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">0 &#x8BFE;&#x7A0B;&#x7B80;&#x4ECB; <br> 1 Linux&#x6982;&#x8FF0;</a></td>
+<td style="text-align:left">1. <a href="http://jingyan.baidu.com/article/14bd256e266714bb6d2612da.html">&#x865A;&#x62DF;&#x673A;&#x600E;&#x4E48;&#x5B89;&#x88C5;&#x5B89;&#x88C5;Linux (Fedora)</a> , <br> 2. <a href="http://wenku.baidu.com/link?url=efSgFWTJH20LKzOoY3IAbvrLUbZlT56eqmrqjh8M66vwPP6NElneaqJP1ETRxxRsxjoE2JPspBLNJeBB8hBZuQLrZbsmw0cvLBpgb0rjidi">VMware10&#x4E0B;&#x5B89;&#x88C5;Fedora21(&#x56FE;&#x6587;&#x8BE6;&#x89E3;)</a></td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">2016.5.6 <br> &#x7B2C;&#x5341;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">2. shell&#x53CA;&#x5E38;&#x7528;&#x547D;&#x4EE4; <br> * 2.1 Linux&#x7EC8;&#x7AEF;&#x4F7F;&#x7528;&#x57FA;&#x7840;  <br> * 2.2 &#x6587;&#x4EF6;&#x4E0E;&#x76EE;&#x5F55;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;  <br> * 2.3 &#x76EE;&#x5F55;&#x548C;&#x6587;&#x4EF6;&#x7684;&#x57FA;&#x672C;&#x64CD;&#x4F5C;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">2 shell&#x53CA;&#x5E38;&#x7528;&#x547D;&#x4EE4; </a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">2016.5.9 <br> &#x7B2C;&#x5341;&#x4E00;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">* 2.1 Linux&#x7EC8;&#x7AEF;&#x4F7F;&#x7528;&#x57FA;&#x7840;  <br> * 2.2 &#x6587;&#x4EF6;&#x4E0E;&#x76EE;&#x5F55;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;  <br> * 2.3 &#x76EE;&#x5F55;&#x548C;&#x6587;&#x4EF6;&#x7684;&#x57FA;&#x672C;&#x64CD;&#x4F5C;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E00;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E8C;&#x5468;&#x5468;&#x4E94;&#xFF0C;2016.5.20</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">2016.5.11 <br> &#x7B2C;&#x5341;&#x4E00;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">* 2.4 &#x5907;&#x4EFD;&#x4E0E;&#x538B;&#x7F29;&#x547D;&#x4EE4; <br> * 2.5 &#x5176;&#x4ED6;&#x5E38;&#x7528;&#x547D;&#x4EE4; <br> * 2.6 &#x8054;&#x673A;&#x5E2E;&#x52A9;&#x547D;&#x4EE4;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">2 shell&#x53CA;&#x5E38;&#x7528;&#x547D;&#x4EE4;</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">2016.5.13 <br> &#x7B2C;&#x5341;&#x4E00;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">3. X Window&#x7CFB;&#x7EDF;&#x7684;&#x4F7F;&#x7528; <br> 4_Linux&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">3_X Window&#x7CFB;&#x7EDF;&#x7684;&#x4F7F;&#x7528;.pptx <br>4_Linux&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;.pptx </a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left">2016.5.16 <br> &#x7B2C;&#x5341;&#x4E8C;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x4E8C;&#xFF1A; Linux&#x7CFB;&#x7EDF;&#x7684;&#x57FA;&#x672C;&#x64CD;&#x4F5C;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E8C;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E09;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.5.23</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left">2016.5.18 <br> &#x7B2C;&#x5341;&#x4E8C;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">5. &#x786C;&#x4EF6;&#x4E0E;&#x8F6F;&#x4EF6;&#x7684;&#x5B89;&#x88C5;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">5_&#x786C;&#x4EF6;&#x4E0E;&#x8F6F;&#x4EF6;&#x7684;&#x5B89;&#x88C5;.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:left">2016.5.20 <br> &#x7B2C;&#x5341;&#x4E8C;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">6. &#x7F51;&#x7EDC;&#x57FA;&#x672C;&#x914D;&#x7F6E;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">6_&#x7F51;&#x7EDC;&#x57FA;&#x672C;&#x914D;&#x7F6E;.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">9</td>
+<td style="text-align:left">2016.5.23 <br> &#x7B2C;&#x5341;&#x4E09;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x4E09;&#xFF1A; Linux&#x7CFB;&#x7EDF;&#x7684;&#x7F51;&#x7EDC;&#x57FA;&#x672C;&#x914D;&#x7F6E;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E09;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x56DB;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.5.30</td>
+</tr>
+<tr>
+<td style="text-align:left">10</td>
+<td style="text-align:left">2016.5.25 <br> &#x7B2C;&#x5341;&#x4E09;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">7. &#x5E38;&#x7528;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x7684;&#x4F7F;&#x7528;&#x4E0E;&#x914D;&#x7F6E;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">7_&#x5E38;&#x7528;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x7684;&#x4F7F;&#x7528;&#x4E0E;&#x914D;&#x7F6E;.pptx</a></td>
+<td style="text-align:left">Samba<br> <a href="http://blog.sina.com.cn/s/blog_ae9507be01017tyz.html">1. win7 &#x4E0E;&#x865A;&#x62DF;&#x673A; fedora14 &#x4F7F;&#x7528; samba &#x6587;&#x4EF6;&#x5171;&#x4EAB;</a> <br> <a href="http://www.linuxidc.com/Linux/2013-01/78234.htm">2. Win7 + VMware + Fedora18 Samba &#x670D;&#x52A1;&#x5668;&#x7684;&#x642D;&#x5EFA;&#x56FE;&#x89E3;</a></td>
+</tr>
+<tr>
+<td style="text-align:left">11</td>
+<td style="text-align:left">2016.5.27 <br> &#x7B2C;&#x5341;&#x4E09;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">8. &#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x4E0E;&#x76D1;&#x89C6;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">8_&#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x4E0E;&#x76D1;&#x89C6;.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">12</td>
+<td style="text-align:left">2016.5.30 <br> &#x7B2C;&#x5341;&#x56DB;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x56DB;&#xFF1A;Linux&#x7CFB;&#x7EDF;&#x5E38;&#x7528;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x7684;&#x914D;&#x7F6E;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x56DB;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E94;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.6</td>
+</tr>
+<tr>
+<td style="text-align:left">13</td>
+<td style="text-align:left">2016.6.1 <br> &#x7B2C;&#x5341;&#x56DB;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">9. Linux&#x7CFB;&#x7EDF;&#x7684;&#x5B89;&#x5168;&#x7BA1;&#x7406;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">9_Linux&#x7CFB;&#x7EDF;&#x7684;&#x5B89;&#x5168;&#x7BA1;&#x7406;.pptx.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">2016.6.3 <br> &#x7B2C;&#x5341;&#x56DB;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">11. shell&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1; <br> * 11.1 &#x4F7F;&#x7528;Shell <br> * 11.2 bash&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1; <br> ** 11.2.1 bash&#x7A0B;&#x5E8F;&#x7684;&#x4E00;&#x822C;&#x683C;&#x5F0F; <br> ** 11.2.2 &#x53D8;&#x91CF;&#x7684;&#x58F0;&#x660E;&#x548C;&#x4F7F;&#x7528; <br> ** 11.2.3 &#x6761;&#x4EF6;&#x5224;&#x65AD;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">11_shell&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">15</td>
+<td style="text-align:left">2016.6.6 <br> &#x7B2C;&#x5341;&#x4E94;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x4E94;&#xFF1A;Linux&#x7CFB;&#x7EDF;&#x7684;&#x7BA1;&#x7406;&#x4E0E;&#x76D1;&#x89C6;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E94;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x516D;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.13</td>
+</tr>
+<tr>
+<td style="text-align:left">16</td>
+<td style="text-align:left">2016.6.8 <br> &#x7B2C;&#x5341;&#x4E94;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">** 11.2.4 &#x63A7;&#x5236;&#x7ED3;&#x6784; <br> ** 11.2.5 &#x51FD;&#x6570; <br> * 11.3 &#x7A0B;&#x5E8F;&#x5B9E;&#x4F8B; <br> ** 11.3.1 Linux&#x7A0B;&#x5E8F;&#x5B9E;&#x4F8B;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">11_shell&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;.pptx</a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">17</td>
+<td style="text-align:left">2016.6.13 <br> &#x7B2C;&#x5341;&#x516D;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x516D;&#xFF1A;Linux&#x7CFB;&#x7EDF;shell&#x7F16;&#x7A0B;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x516D;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E00;&#xFF0C;2016.6.20</td>
+</tr>
+<tr>
+<td style="text-align:left">18</td>
+<td style="text-align:left">2016.6.15 <br> &#x7B2C;&#x5341;&#x516D;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">12 gcc&#x7684;&#x4F7F;&#x7528;&#x4E0E;&#x5F00;&#x53D1;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">12_gcc&#x7684;&#x4F7F;&#x7528;&#x4E0E;&#x5F00;&#x53D1;.ppt </a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">19</td>
+<td style="text-align:left">2016.6.17 <br> &#x7B2C;&#x5341;&#x516D;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">13 Gtk+&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1; <br> 14 Qt&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">13_Gtk+&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1; .ppt <br>14_Qt&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;.ppt </a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">20</td>
+<td style="text-align:left">2016.6.20 <br> &#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E00;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x4E03;&#xFF1A;Linux&#x7CFB;&#x7EDF;shell&#x7F16;&#x7A0B;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E03;.doc </a></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">21</td>
+<td style="text-align:left">2016.6.22 <br> &#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E09;</td>
+<td style="text-align:left">&#x5B9E;&#x9A8C;&#x4E03;&#xFF1A;Linux&#x7CFB;&#x7EDF;shell&#x7F16;&#x7A0B;</td>
+<td style="text-align:left"><a href="http://pan.baidu.com/s/1jHT70R8">&#x5B9E;&#x9A8C;/&#x5B9E;&#x9A8C;&#x4E03;.doc </a></td>
+<td style="text-align:left">&#x63D0;&#x4EA4;&#x65F6;&#x95F4;&#xFF1A;&#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E09;&#xFF0C;2016.6.22</td>
+</tr>
+<tr>
+<td style="text-align:left">22</td>
+<td style="text-align:left">2016.6.24 <br> &#x7B2C;&#x5341;&#x4E03;&#x5468;&#x5468;&#x4E94;</td>
+<td style="text-align:left">&#x590D;&#x4E60;</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

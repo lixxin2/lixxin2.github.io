@@ -1,6 +1,4 @@
-[__Home__](index.html) &nbsp;&nbsp;&nbsp;&nbsp; [News](news.html) &nbsp;&nbsp;&nbsp;&nbsp; [Publications](publications.html) &nbsp;&nbsp;&nbsp;&nbsp; [Projects](projects.html) &nbsp;&nbsp;&nbsp;&nbsp; [Courses](courses.html) &nbsp;&nbsp;&nbsp;&nbsp; [Codes&Data](codevsdata.html)  &nbsp;&nbsp;&nbsp;&nbsp;  [中文](index-cn.html)
-
----
+@import "header.md"
 
 <div><img src="images/1.jpg" style="margin-top:25px;margin-bottom:10px;margin-right:20px;width:120px;height:120px;" align="left" alt=""></div>
 

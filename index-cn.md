@@ -1,6 +1,4 @@
-[Home](index-cn.html) &nbsp;&nbsp;&nbsp;&nbsp; [新闻](news.html) &nbsp;&nbsp;&nbsp;&nbsp; [论文](publications.html) &nbsp;&nbsp;&nbsp;&nbsp; [项目](projects.html) &nbsp;&nbsp;&nbsp;&nbsp; [课程](courses.html) &nbsp;&nbsp;&nbsp;&nbsp; [代码和数据集](codevsdata.html)  &nbsp;&nbsp;&nbsp;&nbsp;  [中文](index.html)
-
----
+@import "header-cn.md"
 
 <div><img src="images/1.jpg" style="margin-top:25px;margin-bottom:10px;margin-right:20px;width:120px;height:120px;" align="left" alt=""></div>
 
@@ -9,7 +7,7 @@
 李鑫鑫
 讲师
 邮箱: lixinxin [AT] sdut DOT edu DOT cn
-[Github](https:/github.com/xxli) 
+[Github](https:/github.com/xxli)
 
 #### 研究方向
 
