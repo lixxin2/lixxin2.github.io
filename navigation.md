@@ -7,5 +7,5 @@
 [Projects](#Projects)
 [Publications](#Publications)
 [Codes&Data](#Codes&Data)
-[gimmick:theme](journal)
+[gimmick:theme](flatly)
 [中文](index-cn.md)
