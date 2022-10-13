@@ -2,10 +2,8 @@
 
 [Research](#Research)
 [News](#News)
-[Professional_Activities](#Professional_Activities)
-[Courses](#Courses)
+[Professional Activities](#Professional_Activities)
+[Courses](courses.md)
 [Projects](#Projects)
 [Publications](#Publications)
 [Codes&Data](#Codes&Data)
-[gimmick:theme](flatly)
-[中文](index-cn.md)
