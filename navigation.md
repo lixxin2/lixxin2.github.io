@@ -7,3 +7,4 @@
 [Projects](projects.md)
 [Publications](publications.md)
 [Codes&Data](codesdata.md)
+[Blog](blog.md)
