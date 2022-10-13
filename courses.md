@@ -1,4 +1,4 @@
-# Course
+# Courses
 
 ## 2022
 
