@@ -1,7 +1,7 @@
 # Home
 
 [Research](research.md)
-[News](news.mds)
+[News](news.md)
 [Professional Activities](activities.md)
 [Courses](courses.md)
 [Projects](projects.md)
