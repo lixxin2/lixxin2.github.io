@@ -1,9 +1,9 @@
 # Home
 
-[Research](#Research)
-[News](#News)
-[Professional Activities](#Professional_Activities)
+[Research](#research.md)
+[News](#news.mds)
+[Professional Activities](#activities.md)
 [Courses](courses.md)
-[Projects](#Projects)
-[Publications](#Publications)
-[Codes&Data](#Codes&Data)
+[Projects](#projects.md)
+[Publications](#publications.md)
+[Codes&Data](#codesdata.md)

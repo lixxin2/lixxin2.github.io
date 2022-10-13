@@ -11,12 +11,5 @@ Email: lixinxin [AT] sdut DOT edu DOT cn, lixxin2 [AT] gmail DOT com
 Machine Learning, Natural Language Processing, Computer Vision.
 Interest: Understanding semantic information in languages, images and videos.
 
-## News
+## Recent News
 
-## Professional Activities
-
-## Projects
-
-## Publications
-
-## Codes&Data
