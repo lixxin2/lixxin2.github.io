@@ -1,0 +1,11 @@
+# EDIT
+
+1. Pull from github. $ git clone git@github.com:/lixxin/lixxin2.github.io
+
+2. Edit markdown files using VS Code.
+
+3. Use Pandoc to convert .md files to .html files.
+
+```cmd
+pandoc -f markdown -t html5 -s --css css/medium.css index.md -o index.html
+```
