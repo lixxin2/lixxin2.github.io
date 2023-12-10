@@ -2,13 +2,14 @@
 
 ![](images/1.jpg)
 
-**Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/) [Shandong University of Technology](https://www.sdut.edu.cn). <br />
-Email: lixinxin [AT] sdut [DOT] edu [DOT] cn, lixxin2 [AT] gmail [DOT] com<br/>
-More Infos: [Github](https://github.com/lixxin2)
+**Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/), [Shandong University of Technology](https://www.sdut.edu.cn). <br />
+Email: lixinxin [AT] sdut [DOT] edu [DOT] cn, lixxin2 [AT] gmail [DOT] com.<br/>
+More Infos: [Github](https://github.com/lixxin2).
 
 ### Research
 
 Machine Learning, Natural Language Processing, Computer Vision.
+
 Interest: Understanding semantic information in languages, images and videos.
 
 ### Recent News
