@@ -1,4 +1,4 @@
-[Research](research.html) &nbsp;&nbsp;&nbsp; [News](news.html)  &nbsp;&nbsp;&nbsp; [Activities](activities.html)  &nbsp;&nbsp;&nbsp; [Courses](courses.html)  &nbsp;&nbsp;&nbsp; [Projects](projects.html)  &nbsp;&nbsp;&nbsp; [Publications](publications.html)  &nbsp;&nbsp;&nbsp; [Codes&Data](codesdata.html)  &nbsp;&nbsp;&nbsp; [Blog](blog.html)
+# Curriculum Vitae
 
 ![](images/1.jpg)
 
