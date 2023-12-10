@@ -3,7 +3,7 @@
 ![](images/1.jpg)
 
 **Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/) [Shandong University of Technology](https://www.sdut.edu.cn). <br />
-Email: lixinxin [AT] sdut, lixxin2 [AT] gmail <br/>
+Email: lixinxin [AT] sdut [DOT] edu [DOT] cn, lixxin2 [AT] gmail [DOT] com<br/>
 More Infos: [Github](https://github.com/lixxin2)
 
 ### Research
