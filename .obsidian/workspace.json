@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7762a437c74f32",
+        "id": "f9b4daded5b09ade",
         "type": "tabs",
         "children": [
           {
-            "id": "da707dfaedeb333f",
+            "id": "7efc31ef9137e812",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cfp.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cfp.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cfp.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cfp.md"
+                "file": "index.md"
               }
             }
           }
@@ -146,6 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da707dfaedeb333f",
-  "lastOpenFiles": []
+  "active": "7efc31ef9137e812",
+  "lastOpenFiles": [
+    "().md",
+    "index.md",
+    "cfp.md"
+  ]
 }

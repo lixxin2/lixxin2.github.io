@@ -2,9 +2,9 @@
 
 ![](images/1.jpg)
 
-**Xinxin Li**, Lecturer, SDUT. <br />
+**Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/) [Shandong University of Technology](https://www.sdut.edu.cn). <br />
 Email: lixinxin [AT] sdut, lixxin2 [AT] gmail <br/>
-More： [Github](https:/github.com/lixxin2)
+More Infos: [Github](https://github.com/lixxin2)
 
 ### Research
 
@@ -14,4 +14,4 @@ Interest: Understanding semantic information in languages, images and videos.
 ### Recent News
 
 ***
-Last modified: Jan. 3, 2022. All content and images &copy; by Xinxin Li
+Last modified: Dec. 10, 2023.
