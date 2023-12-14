@@ -1,6 +1,26 @@
 # Call for papers
 
-[Past Events](pastcfp.html)
+## Timezone
+
+<script>
+function getLocalTime(i) {
+    if (typeof i !== "number") {
+        return new Date();
+    }
+    var d = new Date();
+    var len = d.getTime();
+    var offset = d.getTimezoneOffset() * 60000;
+    var utcTime = len + offset;
+    return new Date(utcTime + 3600000 * i);
+}
+</script>
+
+- AOE=UTC-1200: <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
+- PST=UTC-0800: <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
+- GMT=UTC+0000: <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
+- CST=UTC+0800: <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
+
+## Deadline
 
 | Conference| Subject| Indexes| Abstract Deadline| Deadline| Date| Place| Comments |
 | - | - | - | - | - | - | - | - | 
@@ -19,15 +39,9 @@
 | <a href="">ECAI 2024</a> |  |  |  | Fri Apr 26 2024 19:59:59 GMT+0800 | October 19-24, 2024 | Santiago de Compostela, Spain. |  |
 | <a href="">Conference</a> | Subject | Indexes | Abstract Deadline | Deadline | Date | Place | Comments |
 
-## Timezone
-
-- GMT=UTC+0000
-- AOE=UTC-1200
-- PST=UTC-0800
-- CST=UTC+0800
-
 ## Links
 
 - <a href="https://aideadlin.es/">AI Conference Deadlines</a>, <a href="https://github.com/paperswithcode/ai-deadlines">Github</a>
 - <a href="https://ccfddl.top/">CCF Conference Deadlines</a>, <a href="https://ccfddl.github.io">ccf-deadlines</a>
 - <a href="www.conferenceranks.com">Conference Ranks</a>
+- [Past Events](pastcfp.html)

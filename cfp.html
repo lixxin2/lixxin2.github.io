@@ -26,7 +26,30 @@
 </head>
 <body>
 <h1 id="call-for-papers">Call for papers</h1>
-<p><a href="pastcfp.html">Past Events</a></p>
+<h2 id="timezone">Timezone</h2>
+<script>
+function getLocalTime(i) {
+    if (typeof i !== "number") {
+        return new Date();
+    }
+    var d = new Date();
+    var len = d.getTime();
+    var offset = d.getTimezoneOffset() * 60000;
+    var utcTime = len + offset;
+    return new Date(utcTime + 3600000 * i);
+}
+</script>
+<ul>
+<li>AOE=UTC-1200:
+<script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script></li>
+<li>PST=UTC-0800:
+<script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script></li>
+<li>GMT=UTC+0000:
+<script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script></li>
+<li>CST=UTC+0800:
+<script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script></li>
+</ul>
+<h2 id="deadline">Deadline</h2>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -195,13 +218,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="timezone">Timezone</h2>
-<ul>
-<li>GMT=UTC+0000</li>
-<li>AOE=UTC-1200</li>
-<li>PST=UTC-0800</li>
-<li>CST=UTC+0800</li>
-</ul>
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="https://aideadlin.es/">AI Conference Deadlines</a>,
@@ -209,6 +225,7 @@
 <li><a href="https://ccfddl.top/">CCF Conference Deadlines</a>,
 <a href="https://ccfddl.github.io">ccf-deadlines</a></li>
 <li><a href="www.conferenceranks.com">Conference Ranks</a></li>
+<li><a href="pastcfp.html">Past Events</a></li>
 </ul>
 </body>
 </html>
