@@ -22,12 +22,6 @@ function getLocalTime(i) {
 
 | Conference| Subject| Indexes| Abstract Deadline| Deadline| Date| Place| Comments |
 | - | - | - | - | - | - | - | - | 
-| [IJCNN](https://2024.ieeewcci.org/) | - | CCF C | - | 29 January 2024 | Yokohama, Japan | 
-| [ICIP 2024](https://2024.ieeeicip.org/) | - | CCF C | - | January 31, 2024 | Oct 27-30, 2024 | Abu Dhabi, United Arab Emirates |  |
-| [ICML 2024](https://icml.cc/Conferences/2024) | - | CCF A | - | February 1st, 2024 AoE | July 21-27, 2024 | Vienna, Austria. |  |
-| [VLDB 2024](http://www.vldb.org/2024/) | - | CCF A | | 2024-02-02 08:00:00 | August 25-29, 2024 |  | |
-| [SIGKDD 2024](https://kdd.org/kdd2024/) | - | CCF A | Feb 1, 2024 | Feb 8, 2024 | August 18-22, 2023 |  |  |
-| [UAI 2024](https://www.auai.org/uai2024/) | - | CCF B | - | February 9th, 2024(AOE) | July 15-19, 2024 | Barcelona, Spain. | - | 
 | [ACL 2024](https://2024.aclweb.org/) | - | CCF A | - | February 15, 2024(AOE) | August 11th to 16th, 2024 | Bangkok, Thailand | - | 
 | [ICCBR 2024](https://www.iccbr2024.org/) | - | CCF B | - | February 25, 2024 | June 1-4, 2024 | Merida, Yucatán, México |  |
 | [IROS 2024](https://iros2024-abudhabi.org/) | - | CCF C | - | March 1, 2024 | October 14-18, 2024. | Abu Dhabi, UAE. |  |
@@ -46,9 +40,10 @@ function getLocalTime(i) {
 
 ### Links
 
-- <a href="https://aideadlin.es/">AI Conference Deadlines</a>, <a href="https://github.com/paperswithcode/ai-deadlines">Github</a>
-- <a href="https://ccfddl.top/">CCF Conference Deadlines</a>, <a href="https://ccfddl.github.io">ccf-deadlines</a>
-- <a href="www.conferenceranks.com">Conference Ranks</a>
+- AI Conference Deadlines: <https://aideadlin.es/> <https://github.com/paperswithcode/ai-deadlines>
+- CCF Rec. Conference Deadlines: <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>, <https://ccfddl.top> 
+- 会议之眼：<https://www.conferenceeye.cn>
+- Conference Ranks: <http://www.conferenceranks.com>
 - [Past Events](pastcfp.html)
 
 ---

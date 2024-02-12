@@ -11,7 +11,7 @@ More: [Github](https://github.com/lixxin2).
 
 [[Research](research.html)] &nbsp;&nbsp; [[News](news.html)]  &nbsp;&nbsp; [[Activities](activities.html)]  &nbsp;&nbsp; [[Projects](projects.html)]  &nbsp;&nbsp;[[Publications](publications.html)]  &nbsp;&nbsp; [[Codes&Data](codesdata.html)]  &nbsp;&nbsp;[[Deadlines](deadlines.html)]
 
-<hr/>
+---
 
 ### Research
 
