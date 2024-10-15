@@ -1,24 +1,4 @@
-## Deadlines
-
-<script>
-function getLocalTime(i) {
-    if (typeof i !== "number") {
-        return new Date();
-    }
-    var d = new Date();
-    var len = d.getTime();
-    var offset = d.getTimezoneOffset() * 60000;
-    var utcTime = len + offset;
-    return new Date(utcTime + 3600000 * i);
-}
-</script>
-
-- AOE=UTC-12=UTC-12:00 <span>&nbsp;</span>              <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
-- PST=UTC-8=UTC-08:00  <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
-- GMT=UTC=UTC+00:00    <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
-- CST=UTC+8=UTC+08:00  <span>&nbsp;</span>              <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
-
----
+# Deadlines
 
 | Conference| Subject| Indexes| Abstract Deadline| Deadline| Date| Place| Comments |
 | - | - | - | - | - | - | - | - | 
@@ -38,7 +18,27 @@ function getLocalTime(i) {
 | [KR 2024](https://kr.org/KR2024/) | - | CCF B | April 24, 2024 | May 1, 2024 | Nov 02-08, 2024 | Hanoi, Vietnam |  - |
 | [ICDM 2024](http://18.133.154.107/dates/) | DM | CCF B | - | Jul. 1, 2024 | Dec. 9 – Dec. 12, 2024 | Abu Dhabi, UAE | - | 
 
-### Links
+---
+
+<script>
+function getLocalTime(i) {
+    if (typeof i !== "number") {
+        return new Date();
+    }
+    var d = new Date();
+    var len = d.getTime();
+    var offset = d.getTimezoneOffset() * 60000;
+    var utcTime = len + offset;
+    return new Date(utcTime + 3600000 * i);
+}
+</script>
+
+- AOE=UTC-12=UTC-12:00 <span>&nbsp;</span>              <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
+- PST=UTC-8=UTC-08:00  <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
+- GMT=UTC=UTC+00:00    <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
+- CST=UTC+8=UTC+08:00  <span>&nbsp;</span>              <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
+
+## Links
 
 - AI Conference Deadlines: <https://aideadlin.es/> <https://github.com/paperswithcode/ai-deadlines>
 - CCF Rec. Conference Deadlines: <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>, <https://ccfddl.top> 
