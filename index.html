@@ -11,29 +11,29 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="css/vue.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="css/newsprint-modify.css" />
 </head>
 <body>
 <h1 id="xinxin-li">Xinxin Li</h1>
 <p><img src="images/1.jpg" /></p>
-<p>(<a href="#short-bio">Short Bio</a>)    [<a
-href="research.html">Research</a>]    [<a href="news.html">News</a>]   
-[<a href="activities.html">Activities</a>]    [<a
-href="projects.html">Projects</a>]   [<a
-href="publications.html">Publications</a>]    [<a
-href="codesdata.html">Codes&amp;Data</a>]   [<a
-href="deadlines.html">Deadlines</a>]</p>
+<p>[<a href="#short-bio">Short Bio</a>]   [<a
+href="#research">Research</a>]   [<a href="news.html">News</a>]   [<a
+href="activities.html">Activities</a>]   [<a
+href="projects.html">Projects</a>]   [<a
+href="publications.html">Publications</a>]   [<a
+href="codesdata.html">Codes&amp;Data</a>]   [<a
+href="deadlines.html">CFP Deadlines</a>]</p>
 <h2 id="short-bio">Short Bio</h2>
 <p><strong>Xinxin Li</strong>, Lecturer, <a
 href="https://jsjxy.sdut.edu.cn/">School of Computer Science and

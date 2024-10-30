@@ -11,18 +11,18 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="css/vue.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="css/newsprint-modify.css" />
 </head>
 <body>
 <h1 id="deadlines">Deadlines</h1>
@@ -38,7 +38,7 @@
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -50,158 +50,126 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><a href="https://2024.aclweb.org/">ACL 2024</a></td>
-<td>-</td>
+<tr>
+<td><a href="https://cvpr.thecvf.com/Conferences/2025">CVPR
+2025</a></td>
+<td>CV</td>
 <td>CCF A</td>
-<td>-</td>
-<td>February 15, 2024(AOE)</td>
-<td>August 11th to 16th, 2024</td>
-<td>Bangkok, Thailand</td>
+<td>November 7th, 2024</td>
+<td>Nov 15th 2024 15:59:00 CST (2024-11-14 23:59:00 UTC-8)</td>
+<td>June 10-17, 2025</td>
+<td>Nashville, Tennessee, USA</td>
 <td>-</td>
 </tr>
-<tr class="even">
-<td><a href="https://www.iccbr2024.org/">ICCBR 2024</a></td>
-<td>-</td>
+<tr>
+<td><a href="https://ieee-icde.org/2025/">ICDE 2015</a></td>
+<td>DB,DM</td>
 <td>CCF B</td>
 <td>-</td>
-<td>February 25, 2024</td>
-<td>June 1-4, 2024</td>
-<td>Merida, Yucatán, México</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://iros2024-abudhabi.org/">IROS 2024</a></td>
+<td>Nov 26th 2024 19:59:59 CST (2024-11-25 23:59:59 UTC-12)</td>
+<td>May 19-23, 2025</td>
+<td>Hong Kong, China</td>
 <td>-</td>
+</tr>
+<tr>
+<td><a href="https://pakdd2025.org">PAKDD 2025</a></td>
+<td>DB,DM</td>
 <td>CCF C</td>
 <td>-</td>
-<td>March 1, 2024</td>
-<td>October 14-18, 2024.</td>
-<td>Abu Dhabi, UAE.</td>
-<td></td>
+<td>Dec 1st 2024 15:59:59 CST (2024-11-30 23:59:59 UTC-8)</td>
+<td>June 10-13, 2025</td>
+<td>Sydney, Australia</td>
+<td>-</td>
 </tr>
-<tr class="even">
-<td><a href="https://interspeech2024.org/call-for-papers/">INTERSPEECH
-2024</a></td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>2 March 2024</td>
-<td>1-5 September 2024</td>
-<td>Kos Island, Greece</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://eccv2024.ecva.net/">ECCV 2024</a></td>
-<td>-</td>
+<tr>
+<td><a href="https://2025.ieeeicme.org/">ICME 2025</a></td>
+<td>Multimedia</td>
 <td>CCF B</td>
-<td>Feb 29 ’24 10:00 PM CET</td>
-<td>Mar 07 ’24 10:00 PM CET</td>
-<td>September 29 - October 4, 2024</td>
-<td>Milano, Italy.</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="https://conferences.miccai.org/2024/en">MICCAI
-2024</a></td>
 <td>-</td>
-<td>CCF B</td>
-<td></td>
-<td>Mar 07 2024</td>
-<td>Oct 6-10, 2024</td>
-<td>Marrakech, Morocco</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a
-href="https://2024.ecmlpkdd.org/submissions/key-dates-and-deadlines/">ECML-PKDD
-2024</a></td>
-<td>-</td>
-<td>CCF B</td>
-<td>2024-03-15 AoE(UTC–12)</td>
-<td>2024-03-22</td>
-<td>September 9-13, 2024</td>
-<td>Lithuania</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="http://www.ic-icc.cn/2024/index.htm">ICIC 2024</a></td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>April 1, 2024</td>
-<td>August 5-8, 2024</td>
-<td>Tianjin，China</td>
+<td>Dec 14th 2024 07:59:59 CST (2024-12-13 23:59:59 UTC+0)</td>
+<td>June 30 - July 4, 2025</td>
+<td>Nantes, France</td>
 <td>-</td>
 </tr>
-<tr class="odd">
-<td><a href="https://icpr2024.org/">ICPR 2024</a></td>
-<td>-</td>
-<td>CCF C</td>
-<td></td>
-<td>March 20, 2024</td>
-<td>Dec 01-05, 2024</td>
-<td>Kolkata, India</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="https://colmweb.org/">COLM 2024</a></td>
-<td>-</td>
-<td>-</td>
-<td>March 22, 2024(AoE)</td>
-<td>March 29, 2024</td>
-<td>October 7-9, 2024</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://ppsn2024.fh-ooe.at/">PPSN 2024</a></td>
-<td>-</td>
-<td>CCF B</td>
-<td></td>
-<td>April 5, 2024</td>
-<td>September 14-18, 2024</td>
-<td>Hagenberg, Austria</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="https://2024.acmmm.org/">ACM MM 2024</a></td>
-<td>-</td>
-<td>CCF A</td>
-<td>April 8, 2024</td>
-<td>April 12, 2024</td>
-<td>October 28-November 01, 2024</td>
-<td>Australia</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.ecai2024.eu/">ECAI 2024</a></td>
-<td>-</td>
-<td>CCF B</td>
-<td>Friday, 19 April 2024</td>
-<td>Thursday, 25 April 2024</td>
-<td>October 19-24, 2024</td>
-<td>Santiago de Compostela, Spain.</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="https://kr.org/KR2024/">KR 2024</a></td>
-<td>-</td>
-<td>CCF B</td>
-<td>April 24, 2024</td>
-<td>May 1, 2024</td>
-<td>Nov 02-08, 2024</td>
-<td>Hanoi, Vietnam</td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td><a href="http://18.133.154.107/dates/">ICDM 2024</a></td>
+<tr>
+<td><a href="https://ecmlpkdd.org/2025/">ECML-PKDD 2025</a></td>
 <td>DM</td>
 <td>CCF B</td>
 <td>-</td>
-<td>Jul. 1, 2024</td>
-<td>Dec. 9 – Dec. 12, 2024</td>
-<td>Abu Dhabi, UAE</td>
+<td>Dec 14th 2024 19:59:59 CST (2024-12-13 23:59:59 UTC-12)</td>
+<td>September 15-19, 2024</td>
+<td>Porto, Portugal</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://2025.ijcnn.org/">IJCNN 2025</a></td>
+<td>NN</td>
+<td>CCF C</td>
+<td>-</td>
+<td>Jan 16th 2025 19:59:59 CST (2025-01-15 23:59:59 UTC-12)</td>
+<td>June 30 - July 5, 2025</td>
+<td>Rome, Italy</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a></td>
+<td>-</td>
+<td>CCF A</td>
+<td>-</td>
+<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12)</td>
+<td>July 13-18, 2025</td>
+<td>Padova, Italy</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://2025.ijcai.org/">IJCAI 2025</a></td>
+<td>-</td>
+<td>CCF A</td>
+<td>-</td>
+<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12)</td>
+<td>August 16-22, 2024</td>
+<td>Montreal, Canada</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://icml.cc/Conferences/2025">ICML 2025</a></td>
+<td>-</td>
+<td>CCF A</td>
+<td>-</td>
+<td>Jan 31st 2025 19:59:59 CST (2025-01-30 23:59:59 UTC-12)</td>
+<td>July 11-19, 2025</td>
+<td>Vancouver Convention Center, Vancouver, Canada</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://kdd2025.kdd.org/">SIGKDD 2025</a></td>
+<td>-</td>
+<td>CCF A</td>
+<td>-</td>
+<td>Feb 9th 2025 19:59:59 CST (2025-02-08 23:59:59 UTC-12)</td>
+<td>August 3-7, 2025</td>
+<td>Toronto, ON, Canada</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://www.interspeech2025.org/home">InterSpeech
+2025</a></td>
+<td>-</td>
+<td>CCF C</td>
+<td>-</td>
+<td>Feb 13th 2025 07:59:59 CST (2025-02-12 23:59:59 UTC+0)</td>
+<td>August 17-22, 2025</td>
+<td>Rotterdam, Netherlands</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="https://2025.aclweb.org/">ACL 2025</a></td>
+<td>-</td>
+<td>CCF A</td>
+<td>-</td>
+<td>Feb 16th 2025 19:59:59 CST (2025-02-15 23:59:59 UTC-12)</td>
+<td>July 27 - August 1, 2025</td>
+<td>Vienna, Austria</td>
 <td>-</td>
 </tr>
 </tbody>
@@ -244,7 +212,6 @@ href="https://ccfddl.top" class="uri">https://ccfddl.top</a></li>
 class="uri">https://www.conferenceeye.cn</a></li>
 <li>Conference Ranks: <a href="http://www.conferenceranks.com"
 class="uri">http://www.conferenceranks.com</a></li>
-<li><a href="pastcfp.html">Past Events</a></li>
 </ul>
 <hr />
 <p>Updated: Feb. 21, 2024</p>

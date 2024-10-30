@@ -1,22 +1,19 @@
 # Deadlines
 
 | Conference| Subject| Indexes| Abstract Deadline| Deadline| Date| Place| Comments |
-| - | - | - | - | - | - | - | - | 
-| [ACL 2024](https://2024.aclweb.org/) | - | CCF A | - | February 15, 2024(AOE) | August 11th to 16th, 2024 | Bangkok, Thailand | - | 
-| [ICCBR 2024](https://www.iccbr2024.org/) | - | CCF B | - | February 25, 2024 | June 1-4, 2024 | Merida, Yucatán, México |  |
-| [IROS 2024](https://iros2024-abudhabi.org/) | - | CCF C | - | March 1, 2024 | October 14-18, 2024. | Abu Dhabi, UAE. |  |
-| [INTERSPEECH 2024](https://interspeech2024.org/call-for-papers/) | - | - | - | 2 March 2024 | 1-5 September 2024 | Kos Island, Greece |
-| [ECCV 2024](https://eccv2024.ecva.net/) | - | CCF B | Feb 29 '24 10:00 PM CET | Mar 07 '24 10:00 PM CET | September 29 - October 4, 2024 | Milano, Italy. |  |
-| [MICCAI 2024](https://conferences.miccai.org/2024/en) | - | CCF B |  | Mar 07 2024 | Oct 6-10, 2024 | Marrakech, Morocco |  |
-| [ECML-PKDD 2024](https://2024.ecmlpkdd.org/submissions/key-dates-and-deadlines/) |  - | CCF B |  2024-03-15 AoE(UTC–12) | 2024-03-22 | September 9-13, 2024 | Lithuania |  |
-| [ICIC 2024](http://www.ic-icc.cn/2024/index.htm) | - | - | - | April 1, 2024 | August 5-8, 2024 | Tianjin，China | - |
-| [ICPR 2024](https://icpr2024.org/) | - | CCF C |  | March 20, 2024 | Dec 01-05, 2024 | Kolkata, India |  |
-| [COLM 2024](https://colmweb.org/) | - | - | March 22, 2024(AoE) | March 29, 2024 | October 7-9, 2024 |  |  |
-| [PPSN 2024](https://ppsn2024.fh-ooe.at/) | - | CCF B | | April 5, 2024 | September 14-18, 2024 | Hagenberg, Austria |  |
-| [ACM MM 2024](https://2024.acmmm.org/) | - | CCF A | April 8, 2024 | April 12, 2024 | October 28-November 01, 2024 | Australia |  |
-| [ECAI 2024](https://www.ecai2024.eu/) | - | CCF B | Friday, 19 April 2024 | Thursday, 25 April 2024 | October 19-24, 2024 | Santiago de Compostela, Spain. |  |
-| [KR 2024](https://kr.org/KR2024/) | - | CCF B | April 24, 2024 | May 1, 2024 | Nov 02-08, 2024 | Hanoi, Vietnam |  - |
-| [ICDM 2024](http://18.133.154.107/dates/) | DM | CCF B | - | Jul. 1, 2024 | Dec. 9 – Dec. 12, 2024 | Abu Dhabi, UAE | - | 
+| - | - | - | - | - | - | - | - |
+| [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) | CV | CCF A | November 7th, 2024 | Nov 15th 2024 15:59:00 CST (2024-11-14 23:59:00 UTC-8) | June 10-17, 2025 | Nashville, Tennessee, USA | - |
+| [ICDE 2015](https://ieee-icde.org/2025/) | DB,DM | CCF B | - | Nov 26th 2024 19:59:59 CST (2024-11-25 23:59:59 UTC-12) | May 19-23, 2025 | Hong Kong, China | - |
+| [PAKDD 2025](https://pakdd2025.org) | DB,DM | CCF C | - | Dec 1st 2024 15:59:59 CST (2024-11-30 23:59:59 UTC-8) | June 10-13, 2025 | Sydney, Australia | - |
+| [ICME 2025](https://2025.ieeeicme.org/) |Multimedia  | CCF B | - | Dec 14th 2024 07:59:59 CST (2024-12-13 23:59:59 UTC+0) | June 30 - July 4, 2025 | Nantes, France | - |
+| [ECML-PKDD 2025](https://ecmlpkdd.org/2025/) | DM | CCF B | - | Dec 14th 2024 19:59:59 CST (2024-12-13 23:59:59 UTC-12) | September 15-19, 2024 | Porto, Portugal | - |
+| [IJCNN 2025](https://2025.ijcnn.org/) | NN | CCF C | - | Jan 16th 2025 19:59:59 CST (2025-01-15 23:59:59 UTC-12) | June 30 - July 5, 2025 | Rome, Italy | - |
+| [SIGIR 2025](https://sigir2025.dei.unipd.it/) | - | CCF A | - | Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12) | July 13-18, 2025 | Padova, Italy | - |
+| [IJCAI 2025](https://2025.ijcai.org/) | - | CCF A | - | Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12) | August 16-22, 2024 | Montreal, Canada | - |
+| [ICML 2025](https://icml.cc/Conferences/2025) | - | CCF A | - | Jan 31st 2025 19:59:59 CST (2025-01-30 23:59:59 UTC-12) | July 11-19, 2025 | Vancouver Convention Center, Vancouver, Canada | - |
+| [SIGKDD 2025](https://kdd2025.kdd.org/) | - | CCF A | - | Feb 9th 2025 19:59:59 CST (2025-02-08 23:59:59 UTC-12) | August 3-7, 2025 | Toronto, ON, Canada | - |
+| [InterSpeech 2025](https://www.interspeech2025.org/home) | - | CCF C | - | Feb 13th 2025 07:59:59 CST (2025-02-12 23:59:59 UTC+0) | August 17-22, 2025 | Rotterdam, Netherlands | - |
+| [ACL 2025](https://2025.aclweb.org/) | - | CCF A | - | Feb 16th 2025 19:59:59 CST (2025-02-15 23:59:59 UTC-12) | July 27 - August 1, 2025 | Vienna, Austria | - |
 
 ---
 
@@ -33,10 +30,10 @@ function getLocalTime(i) {
 }
 </script>
 
-- AOE=UTC-12=UTC-12:00 <span>&nbsp;</span>              <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
-- PST=UTC-8=UTC-08:00  <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
-- GMT=UTC=UTC+00:00    <span>&nbsp;&nbsp;&nbsp;</span>  <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
-- CST=UTC+8=UTC+08:00  <span>&nbsp;</span>              <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
+- AOE=UTC-12=UTC-12:00 <span>&nbsp;</span> <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
+- PST=UTC-8=UTC-08:00 <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
+- GMT=UTC=UTC+00:00 <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
+- CST=UTC+8=UTC+08:00 <span>&nbsp;</span> <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
 
 ## Links
 
@@ -44,7 +41,6 @@ function getLocalTime(i) {
 - CCF Rec. Conference Deadlines: <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>, <https://ccfddl.top> 
 - 会议之眼：<https://www.conferenceeye.cn>
 - Conference Ranks: <http://www.conferenceranks.com>
-- [Past Events](pastcfp.html)
 
 ---
 Updated: Feb. 21, 2024
