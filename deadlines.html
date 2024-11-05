@@ -26,6 +26,44 @@
 </head>
 <body>
 <h1 id="deadlines">Deadlines</h1>
+<script src="js/moment.js"></script>
+<script src="js/moment-timezone-with-data.js"></script>
+<!--
+<script>
+function getLocalTime(i) {
+    if (typeof i !== "number") {
+        return new Date();
+    }
+    var d = new Date();
+    var len = d.getTime();
+    var offset = d.getTimezoneOffset() * 60000;
+    var utcTime = len + offset;
+    return new Date(utcTime + 3600000 * i);
+}
+</script>
+-->
+<h2 id="time-zones">Time zones</h2>
+<ul>
+<li><script>document.write(moment().utcOffset(-12).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>AOE=UTC-12=GMT-12</strong></li>
+<li><script>document.write(moment().utcOffset(-8).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>PST=UTC-8=GMT-8</strong></li>
+<li><script>document.write(moment().utc().format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>UTC=GMT</strong></li>
+<li><script>document.write(moment().utcOffset(8).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>CST=UTC+8=GMT+8</strong></li>
+</ul>
+<!--
+- **AOE=UTC-12=GMT-12** <script>var fiji=moment().tz('Pacific/Fiji');document.write(fiji.subtract(1, 'days').format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **PST=UTC-8=GMT-8** <script>var logangelas=moment().tz('America/Los_Angeles');document.write(logangelas.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **UTC=GMT** <script>var london=moment().tz('Europe/London');document.write(london.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **CST=UTC+8=GMT+8** <script>var shanghai=moment().tz('Asia/Shanghai');document.write(shanghai.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- AOE=UTC-12=GMT-12 <span>&nbsp;</span> <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
+- PST=UTC-8=GMT-8 <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
+- UTC=GMT <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
+- CST=UTC+8=GMT-8 <span>&nbsp;</span> <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
+-->
+<h2 id="call-for-papers">Call for papers</h2>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -55,18 +93,21 @@
 2025</a></td>
 <td>CV</td>
 <td>CCF A</td>
-<td>November 7th, 2024</td>
-<td>Nov 15th 2024 15:59:00 CST (2024-11-14 23:59:00 UTC-8)</td>
+<td>November 7th, 2024 11:59pm Pacific Time <br/><span
+class="deadline">2024-11-7 23:59:00-08</span></td>
+<td>Nov 15th 2024 15:59:00 CST (2024-11-14 23:59:00 UTC-8) <br/><span
+class="deadline">2024-11-14 23:59:00-08</span></td>
 <td>June 10-17, 2025</td>
 <td>Nashville, Tennessee, USA</td>
-<td>-</td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://ieee-icde.org/2025/">ICDE 2015</a></td>
 <td>DB,DM</td>
 <td>CCF B</td>
 <td>-</td>
-<td>Nov 26th 2024 19:59:59 CST (2024-11-25 23:59:59 UTC-12)</td>
+<td>Nov 26th 2024 19:59:59 CST (2024-11-25 23:59:59 UTC-12) <br/><span
+class="deadline">2024-11-25 23:59:59-12</span></td>
 <td>May 19-23, 2025</td>
 <td>Hong Kong, China</td>
 <td>-</td>
@@ -76,7 +117,8 @@
 <td>DB,DM</td>
 <td>CCF C</td>
 <td>-</td>
-<td>Dec 1st 2024 15:59:59 CST (2024-11-30 23:59:59 UTC-8)</td>
+<td>Dec 1st 2024 15:59:59 CST (2024-11-30 23:59:59 UTC-8) <br/><span
+class="deadline">2024-11-30 23:59:59-8</span></td>
 <td>June 10-13, 2025</td>
 <td>Sydney, Australia</td>
 <td>-</td>
@@ -86,7 +128,8 @@
 <td>Multimedia</td>
 <td>CCF B</td>
 <td>-</td>
-<td>Dec 14th 2024 07:59:59 CST (2024-12-13 23:59:59 UTC+0)</td>
+<td>Dec 14th 2024 07:59:59 CST (2024-12-13 23:59:59 UTC+0) <br/><span
+class="deadline">2024-12-13 23:59:59+0</span></td>
 <td>June 30 - July 4, 2025</td>
 <td>Nantes, France</td>
 <td>-</td>
@@ -96,7 +139,8 @@
 <td>DM</td>
 <td>CCF B</td>
 <td>-</td>
-<td>Dec 14th 2024 19:59:59 CST (2024-12-13 23:59:59 UTC-12)</td>
+<td>Dec 14th 2024 19:59:59 CST (2024-12-13 23:59:59 UTC-12) <br/><span
+class="deadline">2024-12-13 23:59:59-12</span></td>
 <td>September 15-19, 2024</td>
 <td>Porto, Portugal</td>
 <td>-</td>
@@ -106,7 +150,8 @@
 <td>NN</td>
 <td>CCF C</td>
 <td>-</td>
-<td>Jan 16th 2025 19:59:59 CST (2025-01-15 23:59:59 UTC-12)</td>
+<td>Jan 16th 2025 19:59:59 CST (2025-01-15 23:59:59 UTC-12) <br/><span
+class="deadline">2025-01-15 23:59:59-12</span></td>
 <td>June 30 - July 5, 2025</td>
 <td>Rome, Italy</td>
 <td>-</td>
@@ -116,7 +161,8 @@
 <td>-</td>
 <td>CCF A</td>
 <td>-</td>
-<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12)</td>
+<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12) <br/><span
+class="deadline">2025-01-23 23:59:59-12</span></td>
 <td>July 13-18, 2025</td>
 <td>Padova, Italy</td>
 <td>-</td>
@@ -126,7 +172,8 @@
 <td>-</td>
 <td>CCF A</td>
 <td>-</td>
-<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12)</td>
+<td>Jan 24th 2025 19:59:59 CST (2025-01-23 23:59:59 UTC-12) <br/><span
+class="deadline">2025-01-23 23:59:59-12</span></td>
 <td>August 16-22, 2024</td>
 <td>Montreal, Canada</td>
 <td>-</td>
@@ -136,7 +183,8 @@
 <td>-</td>
 <td>CCF A</td>
 <td>-</td>
-<td>Jan 31st 2025 19:59:59 CST (2025-01-30 23:59:59 UTC-12)</td>
+<td>Jan 31st 2025 19:59:59 CST (2025-01-30 23:59:59 UTC-12) <br/><span
+class="deadline">2025-01-30 23:59:59-12</span></td>
 <td>July 11-19, 2025</td>
 <td>Vancouver Convention Center, Vancouver, Canada</td>
 <td>-</td>
@@ -146,7 +194,8 @@
 <td>-</td>
 <td>CCF A</td>
 <td>-</td>
-<td>Feb 9th 2025 19:59:59 CST (2025-02-08 23:59:59 UTC-12)</td>
+<td>Feb 9th 2025 19:59:59 CST (2025-02-08 23:59:59 UTC-12) <br/><span
+class="deadline">2025-02-08 23:59:59-12</span></td>
 <td>August 3-7, 2025</td>
 <td>Toronto, ON, Canada</td>
 <td>-</td>
@@ -157,7 +206,8 @@
 <td>-</td>
 <td>CCF C</td>
 <td>-</td>
-<td>Feb 13th 2025 07:59:59 CST (2025-02-12 23:59:59 UTC+0)</td>
+<td>Feb 13th 2025 07:59:59 CST (2025-02-12 23:59:59 UTC+0) <br/><span
+class="deadline">2025-02-12 23:59:59+0</span></td>
 <td>August 17-22, 2025</td>
 <td>Rotterdam, Netherlands</td>
 <td>-</td>
@@ -167,36 +217,34 @@
 <td>-</td>
 <td>CCF A</td>
 <td>-</td>
-<td>Feb 16th 2025 19:59:59 CST (2025-02-15 23:59:59 UTC-12)</td>
+<td>Feb 16th 2025 19:59:59 CST (2025-02-15 23:59:59 UTC-12) <br/><span
+class="deadline">2025-02-15 23:59:59-12</span></td>
 <td>July 27 - August 1, 2025</td>
 <td>Vienna, Austria</td>
 <td>-</td>
 </tr>
 </tbody>
 </table>
-<hr />
 <script>
-function getLocalTime(i) {
-    if (typeof i !== "number") {
-        return new Date();
+function setDeadline() {
+    var elements = document.getElementsByClassName("deadline");
+    for(var i=0;i<elements.length;i++) {
+        var element=elements[i];
+        element.setAttribute("style", "color: red;");
+        var duration = moment.duration(moment(element.textContent).diff(moment()));
+        element.textContent="";
+        if(duration.years()>0)
+            element.textContent+=duration.years()+'years ';
+        if(duration.months()>0)
+            element.textContent+=duration.months()+'months ';
+        if(duration.days()>0)
+            element.textContent+=duration.days()+'days ';
+        element.textContent+=duration.hours()+"h" + duration.minutes()+"m" + duration.seconds() + "s left";
     }
-    var d = new Date();
-    var len = d.getTime();
-    var offset = d.getTimezoneOffset() * 60000;
-    var utcTime = len + offset;
-    return new Date(utcTime + 3600000 * i);
+    //myspan.innerHTML="hello world";
 }
+setDeadline();
 </script>
-<ul>
-<li>AOE=UTC-12=UTC-12:00 <span> </span>
-<script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script></li>
-<li>PST=UTC-8=UTC-08:00 <span>   </span>
-<script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script></li>
-<li>GMT=UTC=UTC+00:00 <span>   </span>
-<script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script></li>
-<li>CST=UTC+8=UTC+08:00 <span> </span>
-<script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script></li>
-</ul>
 <h2 id="links">Links</h2>
 <ul>
 <li>AI Conference Deadlines: <a href="https://aideadlin.es/"
@@ -214,6 +262,6 @@ class="uri">https://www.conferenceeye.cn</a></li>
 class="uri">http://www.conferenceranks.com</a></li>
 </ul>
 <hr />
-<p>Updated: Feb. 21, 2024</p>
+<p>Updated: Nov. 5, 2024</p>
 </body>
 </html>

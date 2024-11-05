@@ -1,6 +1,6 @@
 # Xinxin Li
 
-![](images/1.jpg)
+![photo](images/1.jpg)
 
 [[Short Bio](#short-bio)] &nbsp; [[Research](#research)] &nbsp; [[News](news.html)] &nbsp; [[Activities](activities.html)] &nbsp; [[Projects](projects.html)] &nbsp; [[Publications](publications.html)] &nbsp; [[Codes&Data](codesdata.html)] &nbsp; [[CFP Deadlines](deadlines.html)]
 
@@ -12,7 +12,6 @@ Email: lixinxin [AT] sdut [DOT] edu [DOT] cn, lixxin2 [AT] gmail [DOT] com.
 
 More: [Github](https://github.com/lixxin2).
 
-
 ## Research
 
 **Subjects**: Machine Learning, Natural Language Processing, Computer Vision.
@@ -23,5 +22,4 @@ More: [Github](https://github.com/lixxin2).
 
 ---
 
-Updated: Feb. 21, 2024
-</div>
+Updated: Nov. 5, 2024
