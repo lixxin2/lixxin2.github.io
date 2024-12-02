@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>pastdeadlines</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="css/newsprint-modify.css" />
+</head>
+<body>
+<h1 id="past-deadlines">Past deadlines</h1>
+<script src="js/moment.js"></script>
+<script src="js/moment-timezone-with-data.js"></script>
+<!--
+<script>
+function getLocalTime(i) {
+    if (typeof i !== "number") {
+        return new Date();
+    }
+    var d = new Date();
+    var len = d.getTime();
+    var offset = d.getTimezoneOffset() * 60000;
+    var utcTime = len + offset;
+    return new Date(utcTime + 3600000 * i);
+}
+</script>
+-->
+<h2 id="time-zones">Time zones</h2>
+<ul>
+<li><script>document.write(moment().utcOffset(-12).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>AOE=UTC-12=GMT-12</strong></li>
+<li><script>document.write(moment().utcOffset(-8).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>PST=UTC-8=GMT-8</strong></li>
+<li><script>document.write(moment().utc().format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>UTC=GMT</strong></li>
+<li><script>document.write(moment().utcOffset(8).format('MMMM Do YYYY, HH:mm:ss'));</script>
+<strong>CST=UTC+8=GMT+8</strong></li>
+</ul>
+<!--
+- **AOE=UTC-12=GMT-12** <script>var fiji=moment().tz('Pacific/Fiji');document.write(fiji.subtract(1, 'days').format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **PST=UTC-8=GMT-8** <script>var logangelas=moment().tz('America/Los_Angeles');document.write(logangelas.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **UTC=GMT** <script>var london=moment().tz('Europe/London');document.write(london.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- **CST=UTC+8=GMT+8** <script>var shanghai=moment().tz('Asia/Shanghai');document.write(shanghai.format('MMMM Do YYYY, HH:mm:ss'));</script>
+- AOE=UTC-12=GMT-12 <span>&nbsp;</span> <script>document.write(getLocalTime(-12).toString().split("GMT")[0].toString());</script>
+- PST=UTC-8=GMT-8 <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(-8).toString().split("GMT")[0].toString());</script>
+- UTC=GMT <span>&nbsp;&nbsp;&nbsp;</span> <script>document.write(getLocalTime(0).toString().split("GMT")[0].toString());</script>
+- CST=UTC+8=GMT-8 <span>&nbsp;</span> <script>document.write(getLocalTime(8).toString().split("GMT")[0].toString());</script>
+-->
+<h2 id="call-for-papers">Call for papers</h2>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr>
+<th>Conference</th>
+<th>Subject</th>
+<th>Indexes</th>
+<th>Abstract Deadline</th>
+<th>Deadline</th>
+<th>Date</th>
+<th>Place</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<script>
+function setDeadline() {
+    var elements = document.getElementsByClassName("deadline");
+    for(var i=0;i<elements.length;i++) {
+        var element=elements[i];
+        element.setAttribute("style", "color: red;");
+        var duration = moment.duration(moment(element.textContent).diff(moment()));
+        element.textContent="";
+        if(duration.years()>0)
+            element.textContent+=duration.years()+'years ';
+        if(duration.months()>0)
+            element.textContent+=duration.months()+'months ';
+        if(duration.days()>0)
+            element.textContent+=duration.days()+'days ';
+        element.textContent+=duration.hours()+"h" + duration.minutes()+"m" + duration.seconds() + "s left";
+    }
+    //myspan.innerHTML="hello world";
+}
+setDeadline();
+//setInterval(setDeadline, 3000);
+</script>
+<h2 id="links">Links</h2>
+<ul>
+<li>CCF Rec. Conference Deadlines: <a href="https://ccfddl.github.io"
+class="uri">https://ccfddl.github.io</a>, <a
+href="https://github.com/ccfddl/ccf-deadlines"
+class="uri">https://github.com/ccfddl/ccf-deadlines</a>, <a
+href="https://ccfddl.top" class="uri">https://ccfddl.top</a></li>
+<li>AI Conference Deadlines: <a href="https://aideadlin.es/"
+class="uri">https://aideadlin.es/</a> <a
+href="https://github.com/paperswithcode/ai-deadlines"
+class="uri">https://github.com/paperswithcode/ai-deadlines</a></li>
+<li>会议之眼：<a href="https://www.conferenceeye.cn"
+class="uri">https://www.conferenceeye.cn</a></li>
+<li>Conference Ranks: <a href="http://www.conferenceranks.com"
+class="uri">http://www.conferenceranks.com</a></li>
+</ul>
+<hr />
+<p>Updated: Nov. 5, 2024</p>
+</body>
+</html>
