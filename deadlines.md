@@ -39,8 +39,6 @@ function getLocalTime(i) {
 
 | Conference| Subject| Indexes| Abstract Deadline | Deadline | Date| Place| Comments |
 | - | - | - | - | - | - | - | - |
-| [ICME 2025](https://2025.ieeeicme.org/) |Multimedia  | CCF B | - | Dec 14th 2024 07:59:59 CST <br/> (2024-12-13 23:59:59 UTC+0) <br/><span class="deadline">2024-12-13 23:59:59+0</span> | June 30 - July 4, 2025 | Nantes, France | - |
-| [ECML-PKDD 2025](https://ecmlpkdd.org/2025/) | DM | CCF B | - | Dec 14th 2024 19:59:59 CST <br/> (2024-12-13 23:59:59 UTC-12) <br/><span class="deadline">2024-12-13 23:59:59-12</span> | September 15-19, 2024 | Porto, Portugal | - |
 | [VLDB 2025](http://www.vldb.org/2025/) | DB | CCF A, CORE A, THCPL A | - | Jan 2nd 2025 08:00:00 CST  <br/> (2025-01-01 17:00:00 UTC-7)  <br/> <span class="deadline">2025-01-01 17:00:00-7</span> | September 1-5, 2025 | London, United Kingdom | Acc. Rate: 19.4%(280/1437 24') |
 | [IJCNN 2025](https://2025.ijcnn.org/) | NN | CCF C | - | Jan 16th 2025 19:59:59 CST <br/> (2025-01-15 23:59:59 UTC-12) <br/><span class="deadline">2025-01-15 23:59:59-12</span> | June 30 - July 5, 2025 | Rome, Italy | Acc. Rate: 54.8%(1034/1888 23') |
 | [ICIP 2025](https://2025.ieeeicip.org/) | - | CCF C, CORE B, THCPL B | - | Thu Jan 23rd 2025 07:59:59 CST <br/> (2025-01-22 23:59:59 UTC+0) <br/><span class="deadline">2025-01-22 23:59:59+0</span>  | Sep 14-17, 2025 | Anchorage Alaska, USA | Acc. Rate: 44.4%(732/1647 23') |

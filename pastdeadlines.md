@@ -39,6 +39,8 @@ function getLocalTime(i) {
 
 | Conference| Subject| Indexes| Abstract Deadline | Deadline | Date| Place| Comments |
 | - | - | - | - | - | - | - | - |
+| [ICME 2025](https://2025.ieeeicme.org/) |Multimedia  | CCF B | - | Dec 14th 2024 07:59:59 CST <br/> (2024-12-13 23:59:59 UTC+0) <br/><span class="deadline">2024-12-13 23:59:59+0</span> | June 30 - July 4, 2025 | Nantes, France | - |
+| [ECML-PKDD 2025](https://ecmlpkdd.org/2025/) | DM | CCF B | - | Dec 14th 2024 19:59:59 CST <br/> (2024-12-13 23:59:59 UTC-12) <br/><span class="deadline">2024-12-13 23:59:59-12</span> | September 15-19, 2024 | Porto, Portugal | - |
 
 <script>
 function setDeadline() {
