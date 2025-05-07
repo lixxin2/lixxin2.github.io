@@ -54,6 +54,8 @@ function getLocalTime(i) {
 | [UIST 2025](https://uist.acm.org/2025/) | - | CCF A, CORE A*, THCPL A | abstract deadline | Apr 3rd 2025 09:00:00 CST  <br/> (2025-04-02 17:00:00 UTC-8)  <br/> <span class="deadline">2025-04-02 17:00:00-8</span>| Sep 28 - Oct 1, 2025 | Busan, Korea | Acc. Rate: 25.1%(121/483 23') |
 | [ECML-PKDD 2025](http://www.vldb.org/2025/) | DB | CCF B, CORE A | Mar 8, 2025 | Sat Mar 15th 2025 15:59:59 CST  <br/> (2025-03-14 23:59:59 UTC-8)  <br/> <span class="deadline">2025-03-14 23:59:59-8</span> | September 15-19, 2025 Porto, Portugal |  |
 | [RecSys 2025](https://recsys.acm.org/recsys25) | Recommender Systems | CCF B CORE A THCPL B| Apr 2, 2025 |  Wed Apr 9th 2025 19:59:59 CST  <br/> (2025-04-08 23:59:59 UTC-12)  <br/> <span class="deadline">2025-04-08 23:59:59-12</span> | September 22-26, 2025 Prague, Czech Republic | |
+| [ACM MM 2025](https://2025.acmmm.org/) | Multimedia | CCF A CORE A* THCPL A | Apr 5, 2025. |  Sat Apr 12th 2025 19:59:59 CST <br/> (2025-04-11 23:59:59 UTC-12)  <br/> <span class="deadline">2025-04-11 23:59:59-12</span> | October 27-31, 2025 Dublin, Ireland | Acc. Rate: 24.6%(902/3669 23')  |
+| [ECAI 2025](https://ecai2025.org/deadlines/) | AI | CCF B CORE A | Apr 30, 2025.  |  Wed May 7th 2025 19:59:59 CST <br/> (2025-05-06 23:59:59 UTC-12)  <br/> <span class="deadline">2025-05-06 23:59:59-12</span> | October 25-30, 2025 Bologna, ITALY | Acc. Rate: 23.3%(547/2344 24')  |
 
 <script>
 function setDeadline() {

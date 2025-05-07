@@ -22,8 +22,6 @@ More: [Github](https://github.com/lixxin2).
 
 ## Recent News
 
-
-
 ## Courses
 
 - [程序设计基础Ⅱ（Basic Programming Ⅱ）](course/2025Spring-BasicProgramming1-cn.html). Spring 2025
