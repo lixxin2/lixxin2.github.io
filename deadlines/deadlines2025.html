@@ -11,11 +11,8 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -23,6 +20,9 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h1 id="deadlines-2025">Deadlines 2025</h1>
@@ -76,7 +76,7 @@ function getLocalTime(i) {
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -88,7 +88,7 @@ function getLocalTime(i) {
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><a href="https://2025.ieeeicme.org/">ICME 2025</a></td>
 <td>Multimedia</td>
 <td>CCF B</td>
@@ -99,7 +99,7 @@ function getLocalTime(i) {
 <td>Nantes, France</td>
 <td>-</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://ecmlpkdd.org/2025/">ECML-PKDD 2025</a></td>
 <td>DM</td>
 <td>CCF B</td>
@@ -110,7 +110,7 @@ function getLocalTime(i) {
 <td>Porto, Portugal</td>
 <td>-</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://2025.ijcnn.org/">IJCNN 2025</a></td>
 <td>NN</td>
 <td>CCF C</td>
@@ -121,7 +121,7 @@ function getLocalTime(i) {
 <td>Rome, Italy</td>
 <td>Acc. Rate: 54.8%(1034/1888 23’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://2025.ieeeicip.org/">ICIP 2025</a></td>
 <td>-</td>
 <td>CCF C, CORE B, THCPL B</td>
@@ -132,7 +132,7 @@ function getLocalTime(i) {
 <td>Anchorage Alaska, USA</td>
 <td>Acc. Rate: 44.4%(732/1647 23’)</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://s2025.siggraph.org/">ACM SIGGRAPH 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -143,7 +143,7 @@ function getLocalTime(i) {
 <td>Vancouver, BC, Canada</td>
 <td>Acc. Rate: 21.8%(133/610 22’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -154,7 +154,7 @@ function getLocalTime(i) {
 <td>Padova, Italy</td>
 <td>Acc. Rate: 20.2%(160/791 24’)</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://2025.ijcai.org/">IJCAI 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL B</td>
@@ -165,7 +165,7 @@ function getLocalTime(i) {
 <td>Montreal, Canada</td>
 <td>Acc. Rate: 14.0%(791/5651 24’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://icml.cc/Conferences/2025">ICML 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A*, THCPL A</td>
@@ -176,7 +176,7 @@ function getLocalTime(i) {
 <td>Vancouver Convention Center, Vancouver, Canada</td>
 <td>Acc. Rate: 27.5%(2609/9473 24’)</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://kdd2025.kdd.org/">SIGKDD 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -187,7 +187,7 @@ function getLocalTime(i) {
 <td>Toronto, ON, Canada</td>
 <td>Acc. Rate: 20.1%(411/2046 23’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://www.interspeech2025.org/home">InterSpeech
 2025</a></td>
 <td>-</td>
@@ -199,7 +199,7 @@ function getLocalTime(i) {
 <td>Rotterdam, Netherlands</td>
 <td>Acc. Rate: 48.1%(1029/2138 24’)</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://2025.aclweb.org/">ACL 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -210,7 +210,7 @@ function getLocalTime(i) {
 <td>Vienna, Austria</td>
 <td>Acc. Rate: 21.4%(943/4407 24’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI
 2025</a></td>
 <td>-</td>
@@ -222,7 +222,7 @@ function getLocalTime(i) {
 <td>Daejeon, Republic of Korea</td>
 <td>-</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://uist.acm.org/2025/">UIST 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A*, THCPL A</td>
@@ -233,7 +233,7 @@ function getLocalTime(i) {
 <td>Busan, Korea</td>
 <td>Acc. Rate: 25.1%(121/483 23’)</td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="http://www.vldb.org/2025/">ECML-PKDD 2025</a></td>
 <td>DB</td>
 <td>CCF B, CORE A</td>
@@ -244,7 +244,7 @@ function getLocalTime(i) {
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://recsys.acm.org/recsys25">RecSys 2025</a></td>
 <td>Recommender Systems</td>
 <td>CCF B CORE A THCPL B</td>
@@ -255,7 +255,7 @@ function getLocalTime(i) {
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td><a href="https://2025.acmmm.org/">ACM MM 2025</a></td>
 <td>Multimedia</td>
 <td>CCF A CORE A* THCPL A</td>
@@ -266,7 +266,7 @@ function getLocalTime(i) {
 <td>Acc. Rate: 24.6%(902/3669 23’)</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td><a href="https://ecai2025.org/deadlines/">ECAI 2025</a></td>
 <td>AI</td>
 <td>CCF B CORE A</td>
@@ -279,6 +279,41 @@ function getLocalTime(i) {
 </tr>
 </tbody>
 </table>
+<div class="line-block"><a
+href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> | AI | CCF A
+CORE A* THCPL A | May 12, 2025 | Fri May 16th 2025 19:59:59 CST <br/>
+(2025-05-15 23:59:59 UTC-12) <br/> <span class="deadline">2025-05-15
+23:59:59-12</span> | December 2-7, 2025 San Diego Convention Center, USA
+| Acc. Rate: 25.8%(4043/15671 24’) |<br />
+<a href="https://2025.emnlp.org/">EMNLP 2025</a> | AI | CCF B CORE A*
+THCPL A | | Tue May 20th 2025 19:59:59 CST <br/> (2025-05-19 23:59:59
+UTC-12) <br/> <span class="deadline">2025-05-19 23:59:59-12</span> |
+November 5 - 9, 2025 Suzhou, China | Acc. Rate: 21.3%(1047/4909 23’)
+|<br />
+<a href="https://asia.siggraph.org/2025/">ACM SIGGRAPH ASIA 2025</a> | |
+CCF A | May 17, 2025. | Sat May 24th 2025 19:59:00 CST <br/> (2025-05-23
+23:59:00 UTC-12) <br/> <span class="deadline">2025-05-23 23:59:00
+UTC-12</span> | December 15-18, 2025 Hong Kong, China | Acc. Rate:
+29.5%(265/899 24’, 119 journal papers, 146 conference papers) |<br />
+<a href="https://cikm2025.org/">CIKM 2025</a> | DM | CCF B CORE A THCPL
+B | May 17, 2025. | Sat May 24th 2025 19:59:59 CST <br/> (2025-05-23
+23:59:59 UTC-12) <br/> <span class="deadline">2025-05-23 23:59:59
+UTC-12</span> |November 10-14, 2025 Coex, Seoul, Korea | Acc. Rate:
+24.0%(354/1472 23’) |<br />
+<a href="https://edbticdt2026.github.io/">EDBT 2026</a> | DB | CCF B
+CORE A THCPL B | | Sat Jun 7th 2025 19:59:59 CST <br/> (2025-06-06
+23:59:59 UTC-12) <br/> <span class="deadline">2025-06-06
+23:59:59-12</span> | November 12-15, 2025 Washington DC, USA | |<br />
+<a href="https://www3.cs.stonybrook.edu/~icdm2025/cfp.html">ICDM
+2025</a> | DB | CCF B CORE A* THCPL B | | Sat Jun 7th 2025 19:59:59 CST
+<br/> (2025-06-06 23:59:59 UTC-12) <br/> <span
+class="deadline">2025-06-06 23:59:59-12</span> | November 12-15, 2025
+Washington DC, USA | Acc. Rate: 21.6%(200/926 23’) |<br />
+<a href="https://pg2025.nccu.edu.tw/">PG 2025</a> | C
+Graphics,Multimudia | CCF B THCPL B | May 31, 2025 | Sat Jun 7th 2025
+19:59:59 CST <br/> (2025-06-06 23:59:59 UTC-12) <br/> <span
+class="deadline">2025-06-06 23:59:59-12</span> | ctober 14-17, 2025
+National Chengchi University, Taipei, Taiwan | |</div>
 <script>
 function setDeadline() {
     var elements = document.getElementsByClassName("deadline");

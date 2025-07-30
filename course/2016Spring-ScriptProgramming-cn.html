@@ -11,11 +11,8 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -23,6 +20,9 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h2 id="脚本编程技术">脚本编程技术</h2>
@@ -57,7 +57,7 @@
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th style="text-align: left;">课次</th>
 <th style="text-align: left;">时间</th>
 <th style="text-align: left;">授课内容</th>
@@ -66,7 +66,7 @@
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">2016.5.4 <br> 第十周周三</td>
 <td style="text-align: left;">1. Linux概述 <br> * 1.1 初始Linux <br> *
@@ -79,7 +79,7 @@ href="http://jingyan.baidu.com/article/14bd256e266714bb6d2612da.html">虚拟机�
 (Fedora)</a> , <br> 2. <a
 href="http://wenku.baidu.com/link?url=efSgFWTJH20LKzOoY3IAbvrLUbZlT56eqmrqjh8M66vwPP6NElneaqJP1ETRxxRsxjoE2JPspBLNJeBB8hBZuQLrZbsmw0cvLBpgb0rjidi">VMware10下安装Fedora21(图文详解)</a></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">2</td>
 <td style="text-align: left;">2016.5.6 <br> 第十周周五</td>
 <td style="text-align: left;">2. shell及常用命令 <br> * 2.1
@@ -89,7 +89,7 @@ Linux终端使用基础 <br> * 2.2 文件与目录的基本概念 <br> * 2.3
 href="http://pan.baidu.com/s/1jHT70R8">2 shell及常用命令</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">3</td>
 <td style="text-align: left;">2016.5.9 <br> 第十一周周一</td>
 <td style="text-align: left;">* 2.1 Linux终端使用基础 <br> * 2.2
@@ -98,7 +98,7 @@ href="http://pan.baidu.com/s/1jHT70R8">2 shell及常用命令</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验一.doc</a></td>
 <td style="text-align: left;">提交时间：第十二周周五，2016.5.20</td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">4</td>
 <td style="text-align: left;">2016.5.11 <br> 第十一周周三</td>
 <td style="text-align: left;">* 2.4 备份与压缩命令 <br> * 2.5
@@ -107,7 +107,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验一.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">2 shell及常用命令</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">5</td>
 <td style="text-align: left;">2016.5.13 <br> 第十一周周五</td>
 <td style="text-align: left;">3. X Window系统的使用 <br>
@@ -117,7 +117,7 @@ href="http://pan.baidu.com/s/1jHT70R8">3_X Window系统的使用.pptx
 <br>4_Linux上的应用软件.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">6</td>
 <td style="text-align: left;">2016.5.16 <br> 第十二周周一</td>
 <td style="text-align: left;">实验二： Linux系统的基本操作</td>
@@ -125,7 +125,7 @@ href="http://pan.baidu.com/s/1jHT70R8">3_X Window系统的使用.pptx
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验二.doc</a></td>
 <td style="text-align: left;">提交时间：第十三周周一，2016.5.23</td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">2016.5.18 <br> 第十二周周三</td>
 <td style="text-align: left;">5. 硬件与软件的安装</td>
@@ -133,7 +133,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验二.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">5_硬件与软件的安装.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">8</td>
 <td style="text-align: left;">2016.5.20 <br> 第十二周周五</td>
 <td style="text-align: left;">6. 网络基本配置</td>
@@ -141,7 +141,7 @@ href="http://pan.baidu.com/s/1jHT70R8">5_硬件与软件的安装.pptx</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">6_网络基本配置.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">9</td>
 <td style="text-align: left;">2016.5.23 <br> 第十三周周一</td>
 <td style="text-align: left;">实验三： Linux系统的网络基本配置</td>
@@ -149,7 +149,7 @@ href="http://pan.baidu.com/s/1jHT70R8">6_网络基本配置.pptx</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验三.doc</a></td>
 <td style="text-align: left;">提交时间：第十四周周一，2016.5.30</td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">10</td>
 <td style="text-align: left;">2016.5.25 <br> 第十三周周三</td>
 <td style="text-align: left;">7. 常用网络服务的使用与配置</td>
@@ -161,7 +161,7 @@ href="http://blog.sina.com.cn/s/blog_ae9507be01017tyz.html">1. win7
 href="http://www.linuxidc.com/Linux/2013-01/78234.htm">2. Win7 + VMware
 + Fedora18 Samba 服务器的搭建图解</a></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">11</td>
 <td style="text-align: left;">2016.5.27 <br> 第十三周周五</td>
 <td style="text-align: left;">8. 系统管理与监视</td>
@@ -169,7 +169,7 @@ href="http://www.linuxidc.com/Linux/2013-01/78234.htm">2. Win7 + VMware
 href="http://pan.baidu.com/s/1jHT70R8">8_系统管理与监视.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">12</td>
 <td style="text-align: left;">2016.5.30 <br> 第十四周周一</td>
 <td style="text-align: left;">实验四：Linux系统常用网络服务的配置</td>
@@ -177,7 +177,7 @@ href="http://pan.baidu.com/s/1jHT70R8">8_系统管理与监视.pptx</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验四.doc</a></td>
 <td style="text-align: left;">提交时间：第十五周周一，2016.6.6</td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">13</td>
 <td style="text-align: left;">2016.6.1 <br> 第十四周周三</td>
 <td style="text-align: left;">9. Linux系统的安全管理</td>
@@ -185,7 +185,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验四.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">9_Linux系统的安全管理.pptx.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">14</td>
 <td style="text-align: left;">2016.6.3 <br> 第十四周周五</td>
 <td style="text-align: left;">11. shell程序设计 <br> * 11.1 使用Shell
@@ -195,7 +195,7 @@ href="http://pan.baidu.com/s/1jHT70R8">9_Linux系统的安全管理.pptx.pptx</a
 href="http://pan.baidu.com/s/1jHT70R8">11_shell程序设计.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">15</td>
 <td style="text-align: left;">2016.6.6 <br> 第十五周周一</td>
 <td style="text-align: left;">实验五：Linux系统的管理与监视</td>
@@ -203,7 +203,7 @@ href="http://pan.baidu.com/s/1jHT70R8">11_shell程序设计.pptx</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验五.doc</a></td>
 <td style="text-align: left;">提交时间：第十六周周一，2016.6.13</td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">16</td>
 <td style="text-align: left;">2016.6.8 <br> 第十五周周三</td>
 <td style="text-align: left;">** 11.2.4 控制结构 <br> ** 11.2.5 函数
@@ -212,7 +212,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验五.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">11_shell程序设计.pptx</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">17</td>
 <td style="text-align: left;">2016.6.13 <br> 第十六周周一</td>
 <td style="text-align: left;">实验六：Linux系统shell编程</td>
@@ -220,7 +220,7 @@ href="http://pan.baidu.com/s/1jHT70R8">11_shell程序设计.pptx</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验六.doc</a></td>
 <td style="text-align: left;">提交时间：第十七周周一，2016.6.20</td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">18</td>
 <td style="text-align: left;">2016.6.15 <br> 第十六周周三</td>
 <td style="text-align: left;">12 gcc的使用与开发</td>
@@ -228,7 +228,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验六.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">12_gcc的使用与开发.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">19</td>
 <td style="text-align: left;">2016.6.17 <br> 第十六周周五</td>
 <td style="text-align: left;">13 Gtk+图形界面程序设计 <br> 14
@@ -238,7 +238,7 @@ href="http://pan.baidu.com/s/1jHT70R8">13_Gtk+图形界面程序设计 .ppt
 <br>14_Qt图形界面程序设计.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">20</td>
 <td style="text-align: left;">2016.6.20 <br> 第十七周周一</td>
 <td style="text-align: left;">实验七：Linux系统shell编程</td>
@@ -246,7 +246,7 @@ href="http://pan.baidu.com/s/1jHT70R8">13_Gtk+图形界面程序设计 .ppt
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验七.doc</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">21</td>
 <td style="text-align: left;">2016.6.22 <br> 第十七周周三</td>
 <td style="text-align: left;">实验七：Linux系统shell编程</td>
@@ -254,7 +254,7 @@ href="http://pan.baidu.com/s/1jHT70R8">实验/实验七.doc</a></td>
 href="http://pan.baidu.com/s/1jHT70R8">实验/实验七.doc</a></td>
 <td style="text-align: left;">提交时间：第十七周周三，2016.6.22</td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">22</td>
 <td style="text-align: left;">2016.6.24 <br> 第十七周周五</td>
 <td style="text-align: left;">复习</td>

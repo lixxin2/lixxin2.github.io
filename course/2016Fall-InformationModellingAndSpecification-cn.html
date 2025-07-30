@@ -11,11 +11,8 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -23,6 +20,9 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h2
@@ -66,7 +66,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">百度网盘</a></li>
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th style="text-align: left;">课次</th>
 <th style="text-align: left;">时间</th>
 <th style="text-align: left;">授课内容</th>
@@ -75,7 +75,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">百度网盘</a></li>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">2016/9/6</td>
 <td style="text-align: left;">0. 课程介绍 <br> 1. 引言</td>
@@ -84,7 +84,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">0 Course Description <br> 1
 Introduction</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">2</td>
 <td style="text-align: left;">2016/9/8-9</td>
 <td style="text-align: left;">2. Specific Facts</td>
@@ -92,14 +92,14 @@ Introduction</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">2 Specific Facts</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">3</td>
 <td style="text-align: left;">2016/9/13</td>
 <td style="text-align: left;">2. Exercises</td>
 <td style="text-align: left;">《Information Modeling》第2章课后题</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">4</td>
 <td style="text-align: left;">2016/9/20</td>
 <td style="text-align: left;">3. Sets</td>
@@ -107,14 +107,14 @@ href="http://pan.baidu.com/s/1bpsU8Dh">2 Specific Facts</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">3 Sets</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">5</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">3. Exercises</td>
 <td style="text-align: left;">《Information Modeling》第3章课后题</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">6</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">4. Relations(1)</td>
@@ -122,7 +122,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">3 Sets</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">4 Relations</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">7</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">4. Relations(2)</td>
@@ -130,14 +130,14 @@ href="http://pan.baidu.com/s/1bpsU8Dh">4 Relations</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">4 Relations</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">8</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">4. Exercises</td>
 <td style="text-align: left;">《Information Modeling》第4章课后题</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">9</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">5 Introducing SQL</td>
@@ -145,7 +145,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">4 Relations</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">网盘</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="even">
 <td style="text-align: left;">10</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">6 SQL Retrival</td>
@@ -153,7 +153,7 @@ href="http://pan.baidu.com/s/1bpsU8Dh">网盘</a></td>
 href="http://pan.baidu.com/s/1bpsU8Dh">网盘</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr>
+<tr class="odd">
 <td style="text-align: left;">11</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">7 SQL Modularization</td>

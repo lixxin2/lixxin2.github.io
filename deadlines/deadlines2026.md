@@ -1,4 +1,4 @@
-# Deadlines
+# Deadlines 2026
 
 <script src="js/moment.js"></script>
 <script src="js/moment-timezone-with-data.js"></script>
@@ -37,21 +37,11 @@ function getLocalTime(i) {
 
 ## Call for papers
 
-### 2025
-
-| Conference| Subject| Indexes| Abstract Deadline | Deadline | Date/Place| Comments |
-| - | - | - | - | - | - | - |
-| [BIBM 2025](https://ieeebibm.org/BIBM2025/) | 交叉/综合/新兴 | CCF B |  |  Mon Aug 4th 2025 06:00:00 CST <br/> (2025-08-03 17:00:00 UTC-5)  <br/> <span class="deadline">2025-08-03 17:00:00-5</span> |Dec 15-18, 2025 Wuhan, China |  |
-
-### 2026
-
-| Conference| Subject| Indexes| Abstract Deadline | Deadline | Date/Place| Comments |
-| - | - | - | - | - | - | - |
-| [WSDM 2026](https://wsdm-conference.org/2026/) | DM | CCF B CORE A THCPL A |  Aug 8, 2025 |Fri Aug 15th 2025 19:59:59 CST (2025-08-14 23:59:59 UTC-12)  <br/> <span class="deadline">2025-08-14 23:59:59-12</span> |February 22 - 26, 2026 Boise, Idaho, USA |  17.7%(109/615 24') |
-| [ICASSP 2026](https://2026.ieeeicassp.org/) | Speech, Signal | CCF B THCPL B | - | Thu Sep 18th 2025 14:59:59 CST (2025-09-17 22:59:59 UTC-8) <br/> <span class="deadline">2025-09-17 22:59:59-8</span> | May 3-8, 2026 Barcelona, Spain |  48.5%(2812/5796 24') |
-| [ICLR 2026](https://iclr.cc/Conferences/2026) | Speech, Signal | CCF B THCPL B | Sep 21, 202 | Fri Sep 26th 2025 12:59:59 CST (2025-09-25 20:59:59 UTC-8) <br/> <span class="deadline">2025-09-25 20:59:59-8</span> | May 01-05, 2026 Brazil | Acc. Rate: 30.8%(2250/7304 24') |
-| [ICDE 2026](https://icde2026.github.io/) | DE,DM | CCF A CORE A* THCPL A | - | Tue Oct 28th 2025 08:00:00 CST (2025-10-27 17:00:00 UTC-7) <br/> <span class="deadline">2025-10-27 17:00:00-7</span> | May 4-8, 2026 Montréal, Canada | Acc. Rate: 25.4%(376/1481 24') |
-| [ECCV 2026](https://eccv.ecva.net/) | CV | CCF B CORE A* THCPL A |  Dec 31, 079 |Sat Mar 7th 2026 05:00:00 CST <br/> (2026-03-06 13:00:00 UTC-8)  <br/> <span class="deadline">2026-03-06 13:00:00-8</span> |September 8 - 13, 2026 Malmö, Sweden | Acc. Rate: 27.9%(2395/8585 24') |
+| Conference| Subject| Indexes| Abstract Deadline | Deadline | Date| Place| Comments |
+| - | - | - | - | - | - | - | - |
+| [ICDE 2026](https://icde2026.github.io/) | DB/DM/IE | CCF A CORE A* THCPL A | | Thu Jun 12th 2025 19:59:59 CST  <br/>(2025-06-11 23:59:59 UTC-12)  <br/><span class="deadline">2025-06-11 23:59:59-12</span> | May 4-8, 2026 Montréal, Canada | Rate: 25.4%(376/1481 24') |
+| [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/) | AI | CCF A CORE A* THCPL A  | Jul 1, 2025 | Tue Jul 8th 2025 19:59:59 CST <br/>(2025-07-07 23:59:59 UTC-12)<br/> <span class="deadline">2025-07-07 23:59:59-12</span> | January 20 - 27, 2026 Singapore EXPO | Acc. Rate: 23.7%(2342/9862 24') |
+| [SIGMOD 2026](https://2026.sigmod.org/) | DB | CCF A CORE A* THCPL A |   |  Fri Jul 18th 2025 19:59:00 CST <br/>(2025-07-17 23:59:00 UTC-12)  <br/> <span class="deadline">2025-07-17 23:59:00-12</span> | May 31-June 5, 2026 Bangalore, India | Acc. Rate: 27.7%(213/768 24')  |
 
 <script>
 function setDeadline() {
@@ -77,15 +67,7 @@ setDeadline();
 
 ## Links
 
-- CCF Rec. Conference Deadlines: <https://ccfddl.com/>, <https://ccfddl.top>, <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>
+- CCF Rec. Conference Deadlines: <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>, <https://ccfddl.top>
+- AI Conference Deadlines: <https://aideadlin.es/> <https://github.com/paperswithcode/ai-deadlines>
 - 会议之眼：<https://www.conferenceeye.cn>
 - Conference Ranks: <http://www.conferenceranks.com>
-- AI Conference Deadlines: <https://aideadlin.es/> <https://github.com/paperswithcode/ai-deadlines> (2025年不更新了)
-
-## Past Deadlines
-
-- [2026](deadlines/deadlines2026.html)
-- [2025](deadlines/deadlines2025.html)
-
----
-Updated: May 7, 2025
