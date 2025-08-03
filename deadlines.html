@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="deadlines">Deadlines</h1>
@@ -76,7 +76,7 @@ function getLocalTime(i) {
 <col style="width: 14%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -87,7 +87,7 @@ function getLocalTime(i) {
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://ieeebibm.org/BIBM2025/">BIBM 2025</a></td>
 <td>交叉/综合/新兴</td>
 <td>CCF B</td>
@@ -111,7 +111,7 @@ function getLocalTime(i) {
 <col style="width: 14%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -122,7 +122,7 @@ function getLocalTime(i) {
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://wsdm-conference.org/2026/">WSDM 2026</a></td>
 <td>DM</td>
 <td>CCF B CORE A THCPL A</td>
@@ -132,7 +132,7 @@ function getLocalTime(i) {
 <td>February 22 - 26, 2026 Boise, Idaho, USA</td>
 <td>17.7%(109/615 24’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://2026.ieeeicassp.org/">ICASSP 2026</a></td>
 <td>Speech, Signal</td>
 <td>CCF B THCPL B</td>
@@ -142,7 +142,7 @@ function getLocalTime(i) {
 <td>May 3-8, 2026 Barcelona, Spain</td>
 <td>48.5%(2812/5796 24’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://iclr.cc/Conferences/2026">ICLR 2026</a></td>
 <td>Speech, Signal</td>
 <td>CCF B THCPL B</td>
@@ -152,7 +152,7 @@ function getLocalTime(i) {
 <td>May 01-05, 2026 Brazil</td>
 <td>Acc. Rate: 30.8%(2250/7304 24’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://icde2026.github.io/">ICDE 2026</a></td>
 <td>DE,DM</td>
 <td>CCF A CORE A* THCPL A</td>
@@ -162,7 +162,7 @@ function getLocalTime(i) {
 <td>May 4-8, 2026 Montréal, Canada</td>
 <td>Acc. Rate: 25.4%(376/1481 24’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://eccv.ecva.net/">ECCV 2026</a></td>
 <td>CV</td>
 <td>CCF B CORE A* THCPL A</td>

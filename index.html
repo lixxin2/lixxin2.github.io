@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,34 +23,30 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
-<h1 id="xinxin-li">Xinxin Li</h1>
+<h3
+id="home-news-research-publications-projects-courses-activities-deadlines"><a
+href="index.html">Home</a>    <a href="news.html">News</a>    <a
+href="research.html">Research</a>    <a
+href="publications.html">Publications</a>    <a
+href="projects.html">Projects</a>    <a href="courses.html">Courses</a>
+   <a href="activities.html">Activities</a>    <a
+href="deadlines.html">Deadlines</a></h3>
+<h2 id="xinxin-li">Xinxin Li</h2>
 <p><img src="images/1.jpg" /></p>
-<p>[<a href="CV.pdf">CV</a>]   (<a href="#research">Research</a>)   [<a
-href="news.html">News</a>]   (<a href="#courses">Courses</a>)   [<a
-href="activities.html">Activities</a>]   [<a
-href="projects.html">Projects</a>]   [<a
-href="publications.html">Publications</a>]   [<a
-href="codesdata.html">Codes&amp;Data</a>]   [<a
-href="deadlines.html">CFP Deadlines</a>]</p>
 <h2 id="short-bio">Short Bio</h2>
 <p><strong>Xinxin Li</strong>, Lecturer, <a
 href="https://jsjxy.sdut.edu.cn/">School of Computer Science and
 Technology</a>, <a href="https://www.sdut.edu.cn">Shandong University of
-Technology</a>.</p>
-<p>Email: lixinxin {AT} sdut [DOT] edu (DOT) cn, lixxin2 {AT} gmail
-[DOT] com.</p>
-<p>More: <a href="https://github.com/lixxin2">Github</a>.</p>
+Technology</a>. <br/> Email: lixinxin {AT} sdut [DOT] edu (DOT) cn,
+lixxin2 {AT} gmail [DOT] com. <br/> More: <a href="CV.pdf">CV</a>, <a
+href="https://github.com/lixxin2">Github</a>.</p>
 <h2 id="research">Research</h2>
 <p><strong>Subjects</strong>: Machine Learning, Natural Language
-Processing, Computer Vision.</p>
-<p><strong>Interests</strong>: Understanding semantic information in
-languages, images and videos.</p>
-<p><a href="research.html">More…</a></p>
+Processing, Computer Vision. <br/> <strong>Interests</strong>:
+Understanding semantic information in languages, images and videos.
+<br/> <a href="research.html">More…</a></p>
 <h2 id="recent-news">Recent News</h2>
 <h2 id="courses">Courses</h2>
 <ul>
@@ -64,6 +63,6 @@ href="course/2025Spring-FrontiersofComputerScience-cn.html">计算机科学前�
 of Computer Science）</a>. Graduate course. Spring 2025</li>
 </ul>
 <hr />
-<p>Updated: March 6, 2025</p>
+<p>Updated: Aug. 3, 2025</p>
 </body>
 </html>

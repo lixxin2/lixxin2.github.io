@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="deadlines-2025">Deadlines 2025</h1>
@@ -76,7 +76,7 @@ function getLocalTime(i) {
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -88,7 +88,7 @@ function getLocalTime(i) {
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://2025.ieeeicme.org/">ICME 2025</a></td>
 <td>Multimedia</td>
 <td>CCF B</td>
@@ -99,7 +99,7 @@ function getLocalTime(i) {
 <td>Nantes, France</td>
 <td>-</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://ecmlpkdd.org/2025/">ECML-PKDD 2025</a></td>
 <td>DM</td>
 <td>CCF B</td>
@@ -110,7 +110,7 @@ function getLocalTime(i) {
 <td>Porto, Portugal</td>
 <td>-</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://2025.ijcnn.org/">IJCNN 2025</a></td>
 <td>NN</td>
 <td>CCF C</td>
@@ -121,7 +121,7 @@ function getLocalTime(i) {
 <td>Rome, Italy</td>
 <td>Acc. Rate: 54.8%(1034/1888 23’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://2025.ieeeicip.org/">ICIP 2025</a></td>
 <td>-</td>
 <td>CCF C, CORE B, THCPL B</td>
@@ -132,7 +132,7 @@ function getLocalTime(i) {
 <td>Anchorage Alaska, USA</td>
 <td>Acc. Rate: 44.4%(732/1647 23’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://s2025.siggraph.org/">ACM SIGGRAPH 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -143,7 +143,7 @@ function getLocalTime(i) {
 <td>Vancouver, BC, Canada</td>
 <td>Acc. Rate: 21.8%(133/610 22’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -154,7 +154,7 @@ function getLocalTime(i) {
 <td>Padova, Italy</td>
 <td>Acc. Rate: 20.2%(160/791 24’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://2025.ijcai.org/">IJCAI 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL B</td>
@@ -165,7 +165,7 @@ function getLocalTime(i) {
 <td>Montreal, Canada</td>
 <td>Acc. Rate: 14.0%(791/5651 24’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://icml.cc/Conferences/2025">ICML 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A*, THCPL A</td>
@@ -176,7 +176,7 @@ function getLocalTime(i) {
 <td>Vancouver Convention Center, Vancouver, Canada</td>
 <td>Acc. Rate: 27.5%(2609/9473 24’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://kdd2025.kdd.org/">SIGKDD 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -187,7 +187,7 @@ function getLocalTime(i) {
 <td>Toronto, ON, Canada</td>
 <td>Acc. Rate: 20.1%(411/2046 23’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.interspeech2025.org/home">InterSpeech
 2025</a></td>
 <td>-</td>
@@ -199,7 +199,7 @@ function getLocalTime(i) {
 <td>Rotterdam, Netherlands</td>
 <td>Acc. Rate: 48.1%(1029/2138 24’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://2025.aclweb.org/">ACL 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A, THCPL A</td>
@@ -210,7 +210,7 @@ function getLocalTime(i) {
 <td>Vienna, Austria</td>
 <td>Acc. Rate: 21.4%(943/4407 24’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://conferences.miccai.org/2025/en/default.asp">MICCAI
 2025</a></td>
 <td>-</td>
@@ -222,7 +222,7 @@ function getLocalTime(i) {
 <td>Daejeon, Republic of Korea</td>
 <td>-</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://uist.acm.org/2025/">UIST 2025</a></td>
 <td>-</td>
 <td>CCF A, CORE A*, THCPL A</td>
@@ -233,7 +233,7 @@ function getLocalTime(i) {
 <td>Busan, Korea</td>
 <td>Acc. Rate: 25.1%(121/483 23’)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="http://www.vldb.org/2025/">ECML-PKDD 2025</a></td>
 <td>DB</td>
 <td>CCF B, CORE A</td>
@@ -244,7 +244,7 @@ function getLocalTime(i) {
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://recsys.acm.org/recsys25">RecSys 2025</a></td>
 <td>Recommender Systems</td>
 <td>CCF B CORE A THCPL B</td>
@@ -255,7 +255,7 @@ function getLocalTime(i) {
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://2025.acmmm.org/">ACM MM 2025</a></td>
 <td>Multimedia</td>
 <td>CCF A CORE A* THCPL A</td>
@@ -266,7 +266,7 @@ function getLocalTime(i) {
 <td>Acc. Rate: 24.6%(902/3669 23’)</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://ecai2025.org/deadlines/">ECAI 2025</a></td>
 <td>AI</td>
 <td>CCF B CORE A</td>

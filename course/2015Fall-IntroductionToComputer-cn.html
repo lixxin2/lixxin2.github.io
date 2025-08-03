@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h2 id="计算机应用基础c">计算机应用基础(C)</h2>
@@ -86,7 +86,7 @@ Basic程序设计。</li>
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th style="text-align: left;">课次</th>
 <th style="text-align: left;">时间</th>
 <th style="text-align: left;">授课内容</th>
@@ -95,7 +95,7 @@ Basic程序设计。</li>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">2015.9.28 <br> 第四周周一</td>
 <td style="text-align: left;">1. 计算机组成概述 <br> * 1.1
@@ -108,7 +108,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">0 课程简介 <br> 1
 href="http://pan.baidu.com/s/1hq6P1eG">计算机组成原理 唐朔飞
 2008</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">2</td>
 <td style="text-align: left;">2015.10.8 <br> 第五周周四</td>
 <td style="text-align: left;">* 1.4计算机中信息的表示</td>
@@ -117,7 +117,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">1 计算机组成概述4</a></td>
 <td style="text-align: left;">[编码的奥秘]
 (http://pan.baidu.com/s/1hq6P1eG)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">3</td>
 <td style="text-align: left;">2015.10.12 <br> 第六周周一</td>
 <td style="text-align: left;">2. Linux操作系统 <br> * 2.1
@@ -129,7 +129,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">2 Linux.ppt</a></td>
 <td style="text-align: left;"><a
 href="http://pan.baidu.com/s/1hq6P1eG">linux操作系统实用教程.ppt</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">4</td>
 <td style="text-align: left;">2015.10.15 <br> 第六周周四</td>
 <td style="text-align: left;">4. Visual Basic 程序设计基础 <br> * 4.1
@@ -143,7 +143,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">1. Visual Basic范例开发大全 <br>
 Curland《高级Visual Basic编程》<br> 4. Visual basic 6.0 WIN32 API
 程序设计</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">5</td>
 <td style="text-align: left;">2015.10.19 <br> 第七周周一</td>
 <td style="text-align: left;">* 4.2 界面与常用组件 <br> ** 4.2.3
@@ -154,7 +154,7 @@ Curland《高级Visual Basic编程》<br> 4. Visual basic 6.0 WIN32 API
 href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础2-3.ppt</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">6</td>
 <td style="text-align: left;">2015.10.26 <br> 第八周周一</td>
 <td style="text-align: left;">* 4.3 Visual Basic的数据与运算 <br> **
@@ -164,14 +164,14 @@ Basic的控制结构 <br> ** 4.4.1 程序书写规则与基本语句</td>
 href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础3-4.ppt</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">7</td>
 <td style="text-align: left;">2015.10.26 <br> 第八周周四</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">8</td>
 <td style="text-align: left;">2015.10.29 <br> 第八周周四</td>
 <td style="text-align: left;">* 4.4 Visual Basic的控制结构 <br> ** 4.4.2
@@ -180,7 +180,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础3-4.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础4.ppt</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">9</td>
 <td style="text-align: left;">2015.11.2 <br> 第九周周一</td>
 <td style="text-align: left;">上机实验一:VB综合程序设计 <br>
@@ -189,7 +189,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础4.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">上机实验1.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">10</td>
 <td style="text-align: left;">2015.11.5 <br> 第九周周四</td>
 <td style="text-align: left;">* 4.4 Visual Basic的控制结构 <br> ** 4.4.3
@@ -198,7 +198,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">上机实验1.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础4-5.ppt</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">11</td>
 <td style="text-align: left;">2015.11.9 <br> 第十周周一</td>
 <td style="text-align: left;">上机实验一说明</td>
@@ -206,7 +206,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">4 VB程序设计基础4-5.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">上机实验1说明.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">12</td>
 <td style="text-align: left;">2015.11.12 <br> 第十周周四</td>
 <td style="text-align: left;">5. ACCESS 2010 基础 <br> * 5.1
@@ -219,7 +219,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">5 ACCESS 2010
 href="http://pan.baidu.com/s/1hq6P1eG">1. 数据库系统概论（第四版）教材
 <br> 2. Access2010中文版入门与实例教程</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">13</td>
 <td style="text-align: left;">2015.11.16 <br> 第十一周周一</td>
 <td style="text-align: left;">上机实验二:VB综合程序设计 <br>
@@ -228,7 +228,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">1. 数据库系统概论（第四版）�
 href="http://pan.baidu.com/s/1hq6P1eG">上机实验2.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">14</td>
 <td style="text-align: left;">2015.11.19 <br> 第十一周周四</td>
 <td style="text-align: left;">* 5.4 数据表的基本操作 <br> * 5.5
@@ -237,7 +237,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">上机实验2.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">5 ACCESS 2010 基础4-5</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">15</td>
 <td style="text-align: left;">2015.11.23 <br> 第十二周周一</td>
 <td style="text-align: left;">上机实验二:VB综合程序设计 <br>
@@ -245,7 +245,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">5 ACCESS 2010 基础4-5</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">16</td>
 <td style="text-align: left;">2015.11.26 <br> 第十二周周四</td>
 <td style="text-align: left;">* 5.5 查询 <br> *
@@ -255,7 +255,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">5 ACCESS 2010 基础5.ppt <br>
 ACCESS示例/人事管理.accdb</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">17</td>
 <td style="text-align: left;">2015.11.30 <br> 第十三周周一</td>
 <td style="text-align: left;">上机实验四:ACCESS数据库应用 <br>
@@ -263,7 +263,7 @@ ACCESS示例/人事管理.accdb</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">18</td>
 <td style="text-align: left;">2015.12.3 <br> 第十三周周四</td>
 <td style="text-align: left;">* 5.6 窗体 <br> * 5.7 报表的基本操作 <br>
@@ -273,7 +273,7 @@ href="http://pan.baidu.com/s/1hq6P1eG">5 ACCESS 2010 基础6-8.ppt <br>
 ACCESS示例/人事管理.accdb</a></td>
 <td style="text-align: left;">同上</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">19</td>
 <td style="text-align: left;">2015.12.7 <br> 第十四周周一</td>
 <td style="text-align: left;">上机实验四:ACCESS数据库应用 <br>
@@ -281,7 +281,7 @@ ACCESS示例/人事管理.accdb</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">20</td>
 <td style="text-align: left;">2015.12.10 <br> 第十四周周四</td>
 <td style="text-align: left;">7. 网页设计基础 <br> * 7.1
@@ -290,14 +290,14 @@ HTML网页设计技术基础</td>
 href="http://pan.baidu.com/s/1hq6P1eG">7 PHP网页程序设计1.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">21</td>
 <td style="text-align: left;">2015.12.14 <br> 第十五周周一</td>
 <td style="text-align: left;">上机实验五: Linux基本操作与命令</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">22</td>
 <td style="text-align: left;">2015.12.17 <br> 第十五周周四</td>
 <td style="text-align: left;">* 7.2 HTML中多种元素的引用</td>
@@ -305,14 +305,14 @@ href="http://pan.baidu.com/s/1hq6P1eG">7 PHP网页程序设计1.ppt</a></td>
 href="http://pan.baidu.com/s/1hq6P1eG">7 PHP网页程序设计2.ppt</a></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">23</td>
 <td style="text-align: left;">2015.12.21 <br> 第十六周周一</td>
 <td style="text-align: left;">上机实验六: HTML网页设计</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">24</td>
 <td style="text-align: left;">2015.12.24 <br> 第十六周周一</td>
 <td style="text-align: left;">复习</td>

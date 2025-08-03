@@ -1,23 +1,19 @@
-# Xinxin Li
+### [Home](index.html) &nbsp;&nbsp; [News](news.html) &nbsp;&nbsp; [Research](research.html) &nbsp;&nbsp; [Publications](publications.html) &nbsp;&nbsp; [Projects](projects.html) &nbsp;&nbsp; [Courses](courses.html) &nbsp;&nbsp; [Activities](activities.html) &nbsp;&nbsp; [Deadlines](deadlines.html)
+
+## Xinxin Li
 
 ![](images/1.jpg)
 
-[[CV](CV.pdf)] &nbsp; ([Research](#research)) &nbsp; [[News](news.html)] &nbsp; ([Courses](#courses)) &nbsp; [[Activities](activities.html)] &nbsp; [[Projects](projects.html)] &nbsp; [[Publications](publications.html)] &nbsp; [[Codes&Data](codesdata.html)] &nbsp; [[CFP Deadlines](deadlines.html)]
-
 ## Short Bio
 
-**Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/), [Shandong University of Technology](https://www.sdut.edu.cn).
-
-Email: lixinxin {AT} sdut [DOT] edu (DOT) cn, lixxin2 {AT} gmail [DOT] com.
-
-More: [Github](https://github.com/lixxin2).
+**Xinxin Li**, Lecturer, [School of Computer Science and Technology](https://jsjxy.sdut.edu.cn/), [Shandong University of Technology](https://www.sdut.edu.cn). <br/>
+Email: lixinxin {AT} sdut [DOT] edu (DOT) cn, lixxin2 {AT} gmail [DOT] com. <br/>
+More: [CV](CV.pdf), [Github](https://github.com/lixxin2).
 
 ## Research
 
-**Subjects**: Machine Learning, Natural Language Processing, Computer Vision.
-
-**Interests**: Understanding semantic information in languages, images and videos.
-
+**Subjects**: Machine Learning, Natural Language Processing, Computer Vision. <br/>
+**Interests**: Understanding semantic information in languages, images and videos. <br/>
 [More...](research.html)
 
 ## Recent News
@@ -31,4 +27,4 @@ More: [Github](https://github.com/lixxin2).
 
 ---
 
-Updated: March 6, 2025
+Updated: Aug. 3, 2025

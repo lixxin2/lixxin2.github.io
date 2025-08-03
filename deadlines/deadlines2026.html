@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="newsprint-modify.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="deadlines-2026">Deadlines 2026</h1>
@@ -76,7 +76,7 @@ function getLocalTime(i) {
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Conference</th>
 <th>Subject</th>
 <th>Indexes</th>
@@ -88,7 +88,7 @@ function getLocalTime(i) {
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://icde2026.github.io/">ICDE 2026</a></td>
 <td>DB/DM/IE</td>
 <td>CCF A CORE A* THCPL A</td>
@@ -99,7 +99,7 @@ function getLocalTime(i) {
 <td>Rate: 25.4%(376/1481 24’)</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://aaai.org/conference/aaai/aaai-26/">AAAI
 2026</a></td>
 <td>AI</td>
@@ -111,7 +111,7 @@ function getLocalTime(i) {
 <td>Acc. Rate: 23.7%(2342/9862 24’)</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://2026.sigmod.org/">SIGMOD 2026</a></td>
 <td>DB</td>
 <td>CCF A CORE A* THCPL A</td>
