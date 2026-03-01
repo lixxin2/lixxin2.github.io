@@ -49,6 +49,9 @@ function getLocalTime(i) {
 | [SIGIR 2026](https://sigir2026.org/en-AU) | IR | CCF A CORE A* THCPL A | Jan 16, 2026 |2026-01-23 19:59:59 UTC+8 <br/> (2026-01-22 23:59:59 AoE) <br/> <span class="deadline">2026-01-22 23:59:59</span> | July 20-24, 2026 Melbourne, Australia | Acc. Rate: 20.2%(160/791 24')  |
 | [ICML 2026](https://icml.cc/Conferences/2026) | ML | CCF A CORE A* THCPL A | Paper Submissions Open on OpenReview Jan 08 2026 12:00AM UTC-0 |2026-01-29 19:59:59 UTC+8 <br/> (2026-01-29 11:59:59 UTC+0) <br/> <span class="deadline">2026-01-29 11:59:59</span> | July 6-12, 2026 Seoul, Korea | Acc. Rate: 27.5%(2609/9473 24') |
 | [CogSci 2026](https://cognitivesciencesociety.org/cogsci-2026/) | Cognitive Science | CCF B CORE B|  |2026-02-03 19:59:59 UTC+8 <br/> (2026-02-02 23:59:59 AoE) <br/> <span class="deadline">2026-02-02 23:59:59</span> | July 22-25, 2026 Rio de Janeiro, Brazil |  |
+| [SIGKDD 2026](https://kdd2026.kdd.org/) | IR,KD | CCF A CORE A* THCPL A | 2nd round of 2 total rounds |2026-02-09 19:59:59 UTC+8 <br/> (2026-02-08 23:59:59 AoE) <br/> <span class="deadline">2026-02-08 23:59:59</span> | August 9-13, 2026 Jeju, Korea |  |
+| [KR 2026](https://kr.org/KR2026/) | KR | CCF B CORE A* |  |2026-02-14 19:59:59 UTC+8 <br/>(2026-02-13 23:59:59 UTC-12) <br/> <span class="deadline">2026-02-14 19:59:59 UTC+8</span> | July 20-23, 2026 Lisbon, Portugal |  |
+| [MICCAI 2026](https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html) | AI | CCF B, CORE A, THCPL B | Feb 13, 2026 | 2026-02-27 15:59:00 UTC+8 (2026-02-26 23:59:00 UTC-8) <br/> <span class="deadline">2026-02-27 15:59:00 UTC+8</span> | SOct 4-8, 2026 ADNEC Centre, Abu Dhabi, U.A.E. |  |
 
 <script>
 function setDeadline() {

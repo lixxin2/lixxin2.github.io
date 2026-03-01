@@ -1,6 +1,21 @@
 # Courses
 
+## 2026
+
+### Spring 2026
+
+- [程序设计基础Ⅱ（Basic Programming Ⅱ）](course/20265Spring-BasicProgramming1-cn.html). Spring 2026
+- [深度学习（Deep Learning）](course/2026Spring-DeepLearning-cn.html). Graduate course. Spring 2026
+- [计算机科学前沿技术应用系列讲座（Frontiers of Computer Science）](course/2026Spring-FrontiersofComputerScience-cn.html). Graduate course. Spring 2026
+
 ## 2025
+
+### Fall 2025
+
+- [程序设计基础Ⅰ（Basic Programming Ⅰ）](course/2025Fall-BasicProgramming1-cn.html). Fall 2025
+- [大数据存储技术（Data Storage Technology）](course/2025Fall-DataStorageTechnology-cn.html). Fall 2025
+
+### Spring 2025
 
 - [程序设计基础Ⅱ（Basic Programming Ⅱ）](course/2025Spring-BasicProgramming1-cn.html). Spring 2025
 - [大数据处理技术（Big Data Processing Technology）](course/2025Spring-BigDataProcessingTechnology.html).  English Course.Spring 2025
@@ -78,4 +93,4 @@
 - [计算机应用基础（Introduction to Computer）](course/2015Fall-IntroductionToComputer-cn.html). Fall 2015
 
 ---
-Updated: March 6, 2025
+Updated: Feb 28, 2026
