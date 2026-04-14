@@ -52,6 +52,11 @@ function getLocalTime(i) {
 | [SIGKDD 2026](https://kdd2026.kdd.org/) | IR,KD | CCF A CORE A* THCPL A | 2nd round of 2 total rounds |2026-02-09 19:59:59 UTC+8 <br/> (2026-02-08 23:59:59 AoE) <br/> <span class="deadline">2026-02-08 23:59:59</span> | August 9-13, 2026 Jeju, Korea |  |
 | [KR 2026](https://kr.org/KR2026/) | KR | CCF B CORE A* |  |2026-02-14 19:59:59 UTC+8 <br/>(2026-02-13 23:59:59 UTC-12) <br/> <span class="deadline">2026-02-14 19:59:59 UTC+8</span> | July 20-23, 2026 Lisbon, Portugal |  |
 | [MICCAI 2026](https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html) | AI | CCF B, CORE A, THCPL B | Feb 13, 2026 | 2026-02-27 15:59:00 UTC+8 (2026-02-26 23:59:00 UTC-8) <br/> <span class="deadline">2026-02-27 15:59:00 UTC+8</span> | SOct 4-8, 2026 ADNEC Centre, Abu Dhabi, U.A.E. |  |
+| [ECCV 2026](https://eccv.ecva.net/) | CV | CCF B CORE A* THCPL A |  |2026-03-07 05:00:00 UTC+8 <br/> (2026-03-06 13:00:00 UTC-8) <br/> <span class="deadline">2026-03-06 13:00:00-8</span> | September 8 - 13, 2026 Malmö, Sweden | Acc. Rate: 27.9%(2395/8585 24') |
+| [ECML-PKDD 2026](https://ecmlpkdd.org/2026/) | ML,IR | CCF B, CORE A | Mar 6, 2026 | 2026-03-13 19:59:59 UTC+8 (2026-03-12 23:59:59 AoE) <br/> <span class="deadline">2026-03-13 19:59:59 UTC+8</span> | September 7-11, 2026 Naples, Italy |  |
+| [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome) | Vis | CCF A, CORE A*, THCPL A | Mar 22, 2026 | 2026-04-01 19:59:59 UTC+8 (2026-03-31 23:59:59 AoE) <br/> <span class="deadline">2026-04-01 19:59:59 UTC+8</span> | November 9-13, 2026 Boston, Massachusetts, USA |  |
+| [ACM MM 2026](https://2026.acmmm.org/) | MM | CCF A, CORE A*, THCPL A | Mar 25, 2026 | 2026-04-02 19:59:59 UTC+8 (2026-04-01 23:59:59 UTC-12) <br/> <span class="deadline"> 2026-04-02 19:59:59 UTC+8</span> | November 10-14, 2026 Rio de Janeiro, Brazil |  |
+| [SIGMOD 2027](https://2027.sigmod.org/) | Data | CCF A, CORE A*, THCPL A |  | 2026-04-18 19:59:00 UTC+8 (2026-04-17 23:59:00 AoE) <br/> <span class="deadline">2026-04-18 19:59:00 UTC+8</span> | June 13-19, 2027 Huntington Beach, CA, USA |  |
 
 <script>
 function setDeadline() {

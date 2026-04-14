@@ -41,16 +41,17 @@ function getLocalTime(i) {
 
 | Conference| Subject| Indexes| Abstract Deadline | Deadline | Date/Place| Comments |
 | - | - | - | - | - | - | - |
-| [ECCV 2026](https://eccv.ecva.net/) | CV | CCF B CORE A* THCPL A |  |2026-03-07 05:00:00 UTC+8 <br/> (2026-03-06 13:00:00 UTC-8) <br/> <span class="deadline">2026-03-06 13:00:00-8</span> | September 8 - 13, 2026 Malmö, Sweden | Acc. Rate: 27.9%(2395/8585 24') |
-| [ECML-PKDD 2026](https://ecmlpkdd.org/2026/) | ML,IR | CCF B, CORE A | Mar 6, 2026 | 2026-03-13 19:59:59 UTC+8 (2026-03-12 23:59:59 AoE) <br/> <span class="deadline">2026-03-13 19:59:59 UTC+8</span> | September 7-11, 2026 Naples, Italy |  |
-| [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome) | Vis | CCF A, CORE A*, THCPL A | Mar 22, 2026 | 2026-04-01 19:59:59 UTC+8 (2026-03-31 23:59:59 AoE) <br/> <span class="deadline">2026-04-01 19:59:59 UTC+8</span> | November 9-13, 2026 Boston, Massachusetts, USA |  |
-| [ACM MM 2026](https://2026.acmmm.org/) | MM | CCF A, CORE A*, THCPL A | Mar 25, 2026 | 2026-04-02 19:59:59 UTC+8 (2026-04-01 23:59:59 UTC-12) <br/> <span class="deadline"> 2026-04-02 19:59:59 UTC+8</span> | November 10-14, 2026 Rio de Janeiro, Brazil |  |
-| [SIGMOD 2027](https://2027.sigmod.org/) | Data | CCF A, CORE A*, THCPL A |  | 2026-04-18 19:59:00 UTC+8 (2026-04-17 23:59:00 AoE) <br/> <span class="deadline">2026-04-18 19:59:00 UTC+8</span> | June 13-19, 2027 Huntington Beach, CA, USA |  |
 | [RecSys 2026](https://recsys.acm.org/recsys26) | Rec | CCF B, CORE A, THCPL B | Apr 15, 2026 | 2026-04-22 19:59:59 UTC+8 (2026-04-21 23:59:59 AoE) <br/> <span class="deadline">2026-04-22 19:59:59 UTC+8</span> | September 28 - October 2, 2026 Minneapolis, Minnesota, USA |  |
 | [UbiComp/ISWC 2026](https://www.ubicomp.org/ubicomp-iswc-2026) | Computing | CCF A, THCPL A | | 2026-05-02 19:59:59 UTC+8 (2026-05-01 23:59:59 AoE) <br/> <span class="deadline">2026-05-02 19:59:59 UTC+8</span> | October 11-15, 2026 Shanghai, China |  |
-| [NeurIPS 2026](https://neurips.cc/Conferences/2026) | AI | CCF A, CORE A*,THCPL A | | 2026-05-07 19:59:00 UTC+8 (2026-05-07 11:59:00 UTC+0) <br/> <span class="deadline">2026-05-07 19:59:00 UTC+8</span> | December 6, 2026 Sydney, Australia |  |
 | [ISWC 2026](https://iswc2026.semanticweb.org/) | Semantic Web | CCF B, CORE A, THCPL B | May 3, 2026 | 2026-05-08 19:59:59 UTC+8 (2026-05-07 23:59:59 AoE) <br/> <span class="deadline">2026-05-08 19:59:59 UTC+8</span> | October 25-29, 2026 Bari, Italy |  |
-| [ICDM 2026]( http://icdm2026.neu.edu.cn/) | DM | CCF B, CORE A*, THCPL B | May 31, 2026 | 2026-06-07 19:59:59 UTC+8 (2026-06-06 23:59:59 AoE) <br/> <span class="deadline">2026-06-07 19:59:59 UTC+8</span> | November 12-15, 2026 Shenyang, China |  |
+| [NeurIPS 2026](https://neurips.cc/Conferences/2026) | AI | CCF A, CORE A*,THCPL A | | 2026-05-07 19:59:00 UTC+8 (2026-05-07 11:59:00 UTC+0) <br/> <span class="deadline">2026-05-07 19:59:00 UTC+8</span> | December 6, 2026 Sydney, Australia |  |
+| [ACM SIGGRAPH ASIA 2026](https://asia.siggraph.org/2026/) |  | CCF A |  May 6, 2026 | 2026-05-13 19:59:00 UTC+8 (2026-05-12 23:59:00 UTC-12) <br/> <span class="deadline">2026-05-13 19:59:00 UTC+8</span> | December 1-4, 2026 KLCC, Kuala Lumpur, Malaysia |  |
+| [CIKM 2026](https://cikm2026.diag.uniroma1.it/) | DM | CCF B,CORE A,THCPL B | May 19, 2026  |2026-05-26 19:59:59 UTC+8 (2026-05-25 23:59:59 AoE) <br/> <span class="deadline">2026-05-26 19:59:59 UTC+8</span> | November 7-11, 2026 Rome, Italy |  |
+| [EMNLP 2026](https://2026.emnlp.org/) | NLP | CCF B,CORE A*,THCPL A |   |2026-05-26 19:59:59 UTC+8 (2026-05-25 23:59:59 UTC-12) <br/> <span class="deadline">2026-05-26 19:59:59 UTC+8</span> | October 24 - 29, 2026 Budapest, Hungary |  |
+| [ICDM 2026](http://icdm2026.neu.edu.cn/) | DM | CCF B, CORE A*, THCPL B | May 31, 2026 | 2026-06-07 19:59:59 UTC+8 (2026-06-06 23:59:59 AoE) <br/> <span class="deadline">2026-06-07 19:59:59 UTC+8</span> | November 12-15, 2026 Shenyang, China |  |
+| [PG 2026](https://pacificgraphics2026.github.io/) | Graphics | CCF B | Jun 2, 2026 | 2026-06-09 19:59:59 UTC+8 (2026-06-08 23:59:59 AoE) <br/> <span class="deadline">2026-06-09 19:59:59 UTC+8</span> | October 6-9, 2026 Singapore Management University, Singapore |  |
+| [ICDE 2026](https://icde2027.github.io/) | DM | CCF A,CORE A*,THCPL A |  | 2026-06-12 08:00:00 UTC+8 (2026-06-11 17:00:00 UTC-7) <br/> <span class="deadline">2026-06-12 08:00:00 UTC+8</span> | May 17-21, 2027 Copenhagen, Denmark |  |
+| [BIBM 2026](https://ieeebibm.org/BIBM2026/) | Bioinformatics | CCF B |  | 2026-07-06 06:00:00 UTC+8 (2026-07-05 17:00:00 UTC-5) <br/> <span class="deadline">2026-07-06 06:00:00 UTC+8</span> | Dec 1-4, 2026 Dallas, USA |  |
 
 <script>
 function setDeadline() {
@@ -78,7 +79,7 @@ setDeadline();
 
 - CCF Rec. Conference Deadlines
   - <https://ccfddl.com/>, <https://ccfddl.github.io>
-  - <https://ccfddl.top>
+  - <https://ccfddl.cn/>, <https://ccfddl.top>
   - <https://github.com/ccfddl/ccf-deadlines>
 - 会议之眼：<https://www.conferenceeye.cn>
 - Conference Ranks: <http://www.conferenceranks.com>
