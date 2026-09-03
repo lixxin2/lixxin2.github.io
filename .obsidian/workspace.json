@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f9b4daded5b09ade",
+        "id": "1e8905ee0f3ebb68",
         "type": "tabs",
         "children": [
           {
-            "id": "7efc31ef9137e812",
+            "id": "d6c5f9f5e77d64ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,25 +65,12 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
-          {
-            "id": "01dd505972bc5f29",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "right": {
@@ -111,35 +98,6 @@
               },
               "icon": "links-coming-in",
               "title": "反向链接"
-            }
-          },
-          {
-            "id": "fecec1aafbe718e0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "deadlines.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "e4fadc45c7e85d06",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
             }
           },
           {
@@ -175,8 +133,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7efc31ef9137e812",
+  "active": "d6c5f9f5e77d64ab",
   "lastOpenFiles": [
+    "deadlines/deadlines2027.md",
     "deadlines/deadlines2026.md",
     "deadlines.md",
     "index.md",

@@ -1,4 +1,4 @@
-# Deadlines 2025
+# Deadlines 2026
 
 <script src="js/moment.js"></script>
 <script src="js/moment-timezone-with-data.js"></script>
@@ -69,9 +69,6 @@ function getLocalTime(i) {
 | [PG 2026](https://pacificgraphics2026.github.io/)      | Graphics | CCF B   | Jun 2, 2026       | 2026-06-09 19:59:59 UTC+8 (2026-06-08 23:59:59 AoE) <br/> <span class="deadline">2026-06-09 19:59:59 UTC+8</span>    | October 6-9, 2026 Singapore Management University, Singapore           |                       |
 | [ICDE 2026](https://icde2027.github.io/)               | DM       | CCF A   |                   | 2026-06-12 08:00:00 UTC+8 (2026-06-11 17:00:00 UTC-7) <br/> <span class="deadline">2026-06-12 08:00:00 UTC+8</span>  | May 17-21, 2027 Copenhagen, Denmark                                    | 25.4%(376/1481 24')   |
 | [BIBM 2026](https://ieeebibm.org/BIBM2026/)            | BioInfo  | CCF B   |                   | 2026-07-06 06:00:00 UTC+8 (2026-07-05 17:00:00 UTC-5) <br/> <span class="deadline">2026-07-06 06:00:00 UTC+8</span>  | Dec 1-4, 2026 Dallas, USA                                              |                       |
-| [SIGMOD 2027](https://2027.sigmod.org/)                | Data     | CCF A   |                   | 2026-07-18 19:59:00 UTC+8 (2026-07-17 23:59:00 AoE) <br/> <span class="deadline">2026-07-18 19:59:00 UTC+8</span>    | June 13-19, 2027 Huntington Beach, CA, USA                             | 27.7%(213/768 24')    |
-| [AAAI 2027](https://aaai.org/conference/aaai/aaai-27/) | AI       | CCF A   | Jul 21, 2026      | 2026-07-28 19:59:59 UTC+8 (2026-07-27 23:59:59 UTC-12) <br/> <span class="deadline">2026-07-28 19:59:59 UTC+8</span> | February 16-23, 2027 Montréal, Québec, Canada                          | 17.6%(4167/23680 26') |
-| [CHI 2027](https://chi2027.acm.org/)           | DM       | CCF A   | Aug 12, 2026      | 2026-09-11 19:59:59 UTC+8 (2026-09-10 23:59:59 AoE) <br/> <span class="deadline">2026-09-11 19:59:59 UTC+8</span>    | May 10 - 14, 2027 David L. Lawrence Convention Center, Pittsburgh, USA | 27.6%(879/3180 23') |
 
 <script>
 function setDeadline() {
@@ -95,9 +92,3 @@ setDeadline();
 //setInterval(setDeadline, 3000);
 </script>
 
-## Links
-
-- CCF Rec. Conference Deadlines: <https://ccfddl.github.io>, <https://github.com/ccfddl/ccf-deadlines>, <https://ccfddl.top>
-- AI Conference Deadlines: <https://aideadlin.es/> <https://github.com/paperswithcode/ai-deadlines>
-- 会议之眼：<https://www.conferenceeye.cn>
-- Conference Ranks: <http://www.conferenceranks.com>
